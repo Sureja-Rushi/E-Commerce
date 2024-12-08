@@ -1,0 +1,251 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\cartrepositoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\cartrepositoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\cartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\cartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\icartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\icartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\dtos\\addcartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\addcartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 165,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T08:40:06.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAawB4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T07:34:38.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "Backend\\Services\\CartService.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\CartService.cs",
+              "RelativeToolTip": "Backend\\Services\\CartService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwIQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T07:17:50.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\ICartService.cs",
+              "RelativeDocumentMoniker": "Backend\\Services\\ICartService.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\ICartService.cs",
+              "RelativeToolTip": "Backend\\Services\\ICartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T07:04:23.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartItemRepository.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\CartItemRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Repositories\\CartItemRepository.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\CartItemRepository.cs",
+              "RelativeToolTip": "Backend\\Repositories\\CartItemRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T17:38:03.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Backend\\AppDbContext.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\AppDbContext.cs",
+              "RelativeToolTip": "Backend\\AppDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA7wG8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T17:23:57.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartRepositoy.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\CartRepositoy.cs",
+              "RelativeDocumentMoniker": "Backend\\Repositories\\CartRepositoy.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\CartRepositoy.cs",
+              "RelativeToolTip": "Backend\\Repositories\\CartRepositoy.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T17:14:37.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICartItemRepository.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\ICartItemRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Repositories\\ICartItemRepository.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\ICartItemRepository.cs",
+              "RelativeToolTip": "Backend\\Repositories\\ICartItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T17:11:54.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddCartItemDto.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\AddCartItemDto.cs",
+              "RelativeDocumentMoniker": "Backend\\DTOs\\AddCartItemDto.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\AddCartItemDto.cs",
+              "RelativeToolTip": "Backend\\DTOs\\AddCartItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T16:48:40.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICartRepository.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\ICartRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Repositories\\ICartRepository.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\ICartRepository.cs",
+              "RelativeToolTip": "Backend\\Repositories\\ICartRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T16:27:15.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CartItemDto.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\CartItemDto.cs",
+              "RelativeDocumentMoniker": "Backend\\DTOs\\CartItemDto.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\CartItemDto.cs",
+              "RelativeToolTip": "Backend\\DTOs\\CartItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T16:18:14.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CartDto.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\CartDto.cs",
+              "RelativeDocumentMoniker": "Backend\\DTOs\\CartDto.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\CartDto.cs",
+              "RelativeToolTip": "Backend\\DTOs\\CartDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T16:17:45.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\CartItem.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\CartItem.cs",
+              "RelativeToolTip": "Backend\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T16:17:06.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Cart.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Cart.cs",
+              "RelativeToolTip": "Backend\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T12:39:26.006Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
