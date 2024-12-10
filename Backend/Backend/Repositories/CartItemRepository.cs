@@ -19,6 +19,14 @@ namespace Backend.Repositories
                 .FirstOrDefaultAsync(ci => ci.CartId == cartId && ci.ProductId == productId);
         }
 
+        public async Task<List<CartItem>> GetCartItemsByCartIdAsync(int cartId)
+        {
+            return await _context.CartItems
+                .Include(ci => ci.Product)
+                .Where(ci => ci.CartId == cartId)
+                .ToListAsync();
+        }
+
         public async Task AddCartItemAsync(CartItem cartItem)
         {
             await _context.CartItems.AddAsync(cartItem);
@@ -31,22 +39,17 @@ namespace Backend.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task RemoveCartItemAsync(int cartItemId)
+        public async Task RemoveCartItemAsync(CartItem cartItem)
         {
-            var cartItem = await _context.CartItems.FindAsync(cartItemId);
-            if (cartItem != null)
-            {
-                _context.CartItems.Remove(cartItem);
-                await _context.SaveChangesAsync();
-            }
+            _context.CartItems.Remove(cartItem);
+            await _context.SaveChangesAsync();
         }
 
-        public async Task<List<CartItem>> GetCartItemsByCartIdAsync(int cartId)
+        public async Task RemoveAllCartItemsAsync(int cartId)
         {
-            return await _context.CartItems
-                .Include(ci => ci.Product)
-                .Where(ci => ci.CartId == cartId)
-                .ToListAsync();
+            var cartItems = _context.CartItems.Where(ci => ci.CartId == cartId);
+            _context.CartItems.RemoveRange(cartItems);
+            await _context.SaveChangesAsync();
         }
     }
 }

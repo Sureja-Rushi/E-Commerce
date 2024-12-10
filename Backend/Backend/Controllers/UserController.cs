@@ -10,11 +10,13 @@ namespace Backend.Controllers
     {
         private readonly IUserService userService;
         private readonly IAuthService authService;
+        private readonly ICartService cartService;
 
-        public UserController(IUserService userService, IAuthService authService)
+        public UserController(IUserService userService, IAuthService authService, ICartService cartService)
         {
             this.userService = userService;
             this.authService = authService;
+            this.cartService = cartService;
         }
 
         [HttpPost("register")]
@@ -22,21 +24,21 @@ namespace Backend.Controllers
         {
             try
             {
-                // Call the service and get the response
                 var response = await userService.RegisterAsync(request);
 
-                // Set JWT token in cookie
-                var cookieOptions = new CookieOptions
-                {
-                    HttpOnly = true,
-                    Secure = Request.IsHttps, // Use Secure in HTTPS
-                    SameSite = SameSiteMode.Strict,
-                    Expires = DateTime.UtcNow.AddHours(1)
-                };
+                // Set JWT token in cookies
+                SetJwtTokenCookie(response.Token);
 
-                Response.Cookies.Append("AuthToken", response.Token, cookieOptions);
+                // Check if a guestCartId exists in cookies
+                //if (Request.Cookies.TryGetValue("guestCartId", out var guestCartId) && !string.IsNullOrEmpty(guestCartId))
+                //{
+                //    // Convert the guest cart to the registered user's cart
+                //    await cartService.MergeGuestCartToUserCartAsync(guestCartId, response.User.Id);
 
-                // Return the user details as a response
+                //    // Remove the guestCartId cookie after conversion
+                //    Response.Cookies.Delete("guestCartId");
+                //}
+
                 return CreatedAtAction(nameof(Register), new { id = response.User.Id }, new
                 {
                     message = $"Welcome {response.User.FullName}, registration successful!",
@@ -49,14 +51,15 @@ namespace Backend.Controllers
             }
         }
 
+
         private void SetJwtTokenCookie(string token)
         {
             var cookieOptions = new CookieOptions
             {
-                HttpOnly = true,  
-                Secure = true,   
+                HttpOnly = true,
+                Secure = true,
                 SameSite = SameSiteMode.Strict,
-                Expires = DateTime.UtcNow.AddHours(1) 
+                Expires = DateTime.UtcNow.AddHours(1)
             };
 
             Response.Cookies.Append("AuthToken", token, cookieOptions);

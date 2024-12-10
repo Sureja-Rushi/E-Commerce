@@ -5,7 +5,7 @@ namespace Backend.Repositories
 {
     public class CartRepositoy : ICartRepository
     {
-        private  readonly AppDbContext _context;
+        private readonly AppDbContext _context;
 
         public CartRepositoy(AppDbContext context)
         {
@@ -18,18 +18,10 @@ namespace Backend.Repositories
                 .Include(c => c.CartItems)
                 .ThenInclude(ci => ci.Product)
                 .FirstOrDefaultAsync(c => c.UserId == userId);
-
         }
 
-        public async Task<Cart> GetCartByGuestIdAsync(string guestCartId)
-        {
-            return await _context.Carts
-                .Include(c => c.CartItems)
-                .ThenInclude(ci => ci.Product)
-                .FirstOrDefaultAsync(c => c.GuestCartId == guestCartId);
-        }
 
-        public async Task CreateCartAsync(Cart cart)
+        public async Task AddCartAsync(Cart cart)
         {
             await _context.Carts.AddAsync(cart);
             await _context.SaveChangesAsync();

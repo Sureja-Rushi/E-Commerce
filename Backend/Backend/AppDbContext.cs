@@ -16,6 +16,9 @@ namespace Backend
         public DbSet<Cart> Carts { get; set; }
         public DbSet<CartItem> CartItems { get; set; }
 
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // User entity configuration
@@ -26,8 +29,6 @@ namespace Backend
                 entity.Property(u => u.FullName).IsRequired().HasMaxLength(255);
                 entity.Property(u => u.Role).IsRequired().HasMaxLength(50);
                 entity.HasIndex(u => u.Email).IsUnique();
-                // Remove the Reviews navigation property from User
-                // No navigation property in User for Reviews, keep the foreign key relationship in Review
             });
 
             // Category entity configuration
@@ -35,7 +36,7 @@ namespace Backend
             {
                 entity.HasKey(c => c.Id);
                 entity.Property(c => c.Name).IsRequired().HasMaxLength(255);
-                entity.HasMany(c => c.Products) // Added navigation property for Products
+                entity.HasMany(c => c.Products)
                       .WithOne(p => p.Category)
                       .HasForeignKey(p => p.CategoryId)
                       .OnDelete(DeleteBehavior.Cascade);
@@ -70,7 +71,7 @@ namespace Backend
                       .OnDelete(DeleteBehavior.Cascade);
 
                 entity.HasOne(r => r.User)
-                      .WithMany() // No navigation property in User, so no `.WithMany(u => u.Reviews)`
+                      .WithMany()
                       .HasForeignKey(r => r.UserId)
                       .OnDelete(DeleteBehavior.Restrict);
             });
@@ -86,9 +87,6 @@ namespace Backend
                       .WithMany()
                       .HasForeignKey(c => c.UserId)
                       .OnDelete(DeleteBehavior.Cascade);
-
-                entity.Property(c => c.GuestCartId).HasMaxLength(255);
-                entity.HasIndex(c => c.GuestCartId).IsUnique(false); // Guest carts are not globally unique
             });
 
             // CartItem entity configuration
@@ -109,6 +107,41 @@ namespace Backend
 
                 entity.Property(ci => ci.CreatedAt).IsRequired().HasDefaultValueSql("GETUTCDATE()");
                 entity.Property(ci => ci.UpdatedAt).IsRequired().HasDefaultValueSql("GETUTCDATE()");
+            });
+
+            // Order entity configuration
+            modelBuilder.Entity<Order>(entity =>
+            {
+                entity.HasKey(o => o.Id);
+                entity.Property(o => o.TotalAmount).IsRequired().HasColumnType("decimal(18,2)");
+                entity.Property(o => o.OrderStatus).IsRequired().HasMaxLength(50);
+                entity.Property(o => o.ShippingAddress).IsRequired().HasMaxLength(500);
+                entity.Property(o => o.CreatedAt).IsRequired().HasDefaultValueSql("GETUTCDATE()");
+                entity.Property(o => o.UpdatedAt).IsRequired().HasDefaultValueSql("GETUTCDATE()");
+
+                entity.HasOne(o => o.User)
+                      .WithMany()
+                      .HasForeignKey(o => o.UserId)
+                      .OnDelete(DeleteBehavior.Cascade);
+            });
+
+            // OrderItem entity configuration
+            modelBuilder.Entity<OrderItem>(entity =>
+            {
+                entity.HasKey(oi => oi.Id);
+                entity.Property(oi => oi.Price).IsRequired().HasColumnType("decimal(18,2)");
+                entity.Property(oi => oi.TotalPrice).IsRequired().HasColumnType("decimal(18,2)");
+                entity.Property(oi => oi.Quantity).IsRequired();
+
+                entity.HasOne(oi => oi.Order)
+                      .WithMany(o => o.OrderItems)
+                      .HasForeignKey(oi => oi.OrderId)
+                      .OnDelete(DeleteBehavior.Cascade);
+
+                entity.HasOne(oi => oi.Product)
+                      .WithMany()
+                      .HasForeignKey(oi => oi.ProductId)
+                      .OnDelete(DeleteBehavior.Restrict);
             });
 
             base.OnModelCreating(modelBuilder);
