@@ -17,6 +17,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.Configure<JwtConfiguration>(builder.Configuration.GetSection("JwtConfiguration"));
 
+builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("StripeSettings"));
+
+
 //builder.Services.AddControllers().AddJsonOptions(options =>
 //{
 //    options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
@@ -48,6 +51,9 @@ builder.Services.AddScoped<ICartItemRepository, CartItemRepository>();
 builder.Services.AddScoped<ICartService, CartService>();
 
 builder.Services.AddScoped<IOrderService, OrderService>();
+
+builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
+builder.Services.AddScoped<IPaymentService, PaymentService>();
 
 builder.Services.AddControllers();
 

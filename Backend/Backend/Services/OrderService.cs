@@ -109,17 +109,17 @@ namespace Backend.Services
             .Where(o => o.UserId == userId);
         }
 
-        public async Task UpdateOrderStatusAsync(int orderId, string status, int adminUserId)
+        public async Task UpdateOrderStatusAsync(int orderId, string status)
         {
             var order = await _context.Orders.FindAsync(orderId);
             if (order == null) throw new Exception("Order not found.");
 
             // Check if the user is an admin
-            var user = await _userService.GetUserByIdAsync(adminUserId);
-            if (user == null || user.Role != "Admin")
-            {
-                throw new UnauthorizedAccessException("Only admins can update the order status.");
-            }
+            //var user = await _userService.GetUserByIdAsync(adminUserId);
+            //if (user == null || user.Role != "Admin")
+            //{
+            //    throw new UnauthorizedAccessException("Only admins can update the order status.");
+            //}
 
             order.OrderStatus = status;
             order.UpdatedAt = DateTime.UtcNow;
@@ -142,6 +142,7 @@ namespace Backend.Services
                 ShippingAddress = order.ShippingAddress,
                 TotalAmount = order.TotalAmount,
                 OrderStatus = order.OrderStatus,
+                PaymentStatus = order.PaymentStatus,
                 Items = order.OrderItems.Select(item => new OrderItemDto
                 {
                     ProductId = item.ProductId,
@@ -182,6 +183,18 @@ namespace Backend.Services
                     TotalPrice = oi.TotalPrice
                 }).ToList()
             }).ToList();
+        }
+
+        public async Task UpdateOrderPaymentStatusAsync(int orderId, string paymentStatus)
+        {
+            var order = await _context.Orders.FirstOrDefaultAsync(o => o.Id == orderId);
+            if (order != null)
+            {
+                order.PaymentStatus = paymentStatus;
+                order.UpdatedAt = DateTime.UtcNow;
+                _context.Orders.Update(order);
+                await _context.SaveChangesAsync();
+            }
         }
 
     }

@@ -7,6 +7,7 @@
         public string ShippingAddress { get; set; } // Address to ship the order
         public decimal TotalAmount { get; set; } // Total order price
         public string OrderStatus { get; set; } // Pending, In Progress, etc.
+        public string PaymentStatus { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
 

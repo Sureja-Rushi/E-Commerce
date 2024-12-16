@@ -19,6 +19,8 @@ namespace Backend
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderItem> OrderItems { get; set; }
 
+        public DbSet<Payment> Payments { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // User entity configuration
@@ -115,6 +117,7 @@ namespace Backend
                 entity.HasKey(o => o.Id);
                 entity.Property(o => o.TotalAmount).IsRequired().HasColumnType("decimal(18,2)");
                 entity.Property(o => o.OrderStatus).IsRequired().HasMaxLength(50);
+                modelBuilder.Entity<Order>().Property(o => o.PaymentStatus).HasDefaultValue("Pending");
                 entity.Property(o => o.ShippingAddress).IsRequired().HasMaxLength(500);
                 entity.Property(o => o.CreatedAt).IsRequired().HasDefaultValueSql("GETUTCDATE()");
                 entity.Property(o => o.UpdatedAt).IsRequired().HasDefaultValueSql("GETUTCDATE()");
@@ -142,6 +145,52 @@ namespace Backend
                       .WithMany()
                       .HasForeignKey(oi => oi.ProductId)
                       .OnDelete(DeleteBehavior.Restrict);
+            });
+
+            modelBuilder.Entity<Payment>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+
+                entity.Property(e => e.PaymentGateway)
+                      .HasMaxLength(50)
+                      .IsRequired();
+
+                entity.Property(e => e.Amount)
+                      .HasColumnType("decimal(18, 2)")
+                      .IsRequired();
+
+                entity.Property(e => e.Currency)
+                      .HasMaxLength(10)
+                      .IsRequired();
+
+                entity.Property(e => e.Status)
+                      .HasMaxLength(50)
+                      .IsRequired();
+
+                entity.Property(e => e.TransactionId)
+                      .HasMaxLength(100)
+                      .IsRequired();
+
+                entity.HasIndex(e => e.TransactionId)
+                      .IsUnique();
+
+                entity.Property(e => e.CreatedAt)
+                      .HasDefaultValueSql("GETDATE()")
+                      .IsRequired();
+
+                entity.Property(e => e.UpdatedAt)
+                      .HasDefaultValueSql("GETDATE()")
+                      .IsRequired();
+
+                entity.HasOne<Order>()
+                      .WithMany()
+                      .HasForeignKey(e => e.OrderId)
+                      .OnDelete(DeleteBehavior.Cascade);
+
+                entity.HasOne<User>()
+                      .WithMany()
+                      .HasForeignKey(e => e.UserId)
+                      .OnDelete(DeleteBehavior.Cascade);
             });
 
             base.OnModelCreating(modelBuilder);

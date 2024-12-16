@@ -58,8 +58,18 @@ namespace Backend.Controllers
         public async Task<IActionResult> UpdateOrderStatus(int orderId, [FromBody] UpdateOrderStatusDto updateOrderStatusDto)
         {
             // Get userId from JWT token
-            var adminUserId = GetUserIdFromToken();
-            if (adminUserId == null) return Unauthorized("User not authenticated.");
+            //var adminUserId = GetUserIdFromToken();
+            //if (adminUserId == null) return Unauthorized("User not authenticated.");
+
+            var token = Request.Cookies["AuthToken"];
+            if (string.IsNullOrEmpty(token)) return null;
+
+            var user = JwtTokenHelper.GetUserFromToken(token);
+
+            if(user.Role != "Admin")
+            {
+                return Unauthorized("Only admins can update the order status.");
+            }
 
             // Validate the input
             if (string.IsNullOrWhiteSpace(updateOrderStatusDto.Status))
@@ -67,7 +77,7 @@ namespace Backend.Controllers
 
             try
             {
-                await _orderService.UpdateOrderStatusAsync(orderId, updateOrderStatusDto.Status, adminUserId.Value);
+                await _orderService.UpdateOrderStatusAsync(orderId, updateOrderStatusDto.Status);
                 return Ok();
             }
             catch (Exception ex)

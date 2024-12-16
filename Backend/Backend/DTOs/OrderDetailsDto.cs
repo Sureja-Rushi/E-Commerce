@@ -6,6 +6,7 @@
         public string ShippingAddress { get; set; }
         public decimal TotalAmount { get; set; }
         public string OrderStatus { get; set; }
+        public string PaymentStatus { get; set; }
         public List<OrderItemDto> Items { get; set; }
     }
 }

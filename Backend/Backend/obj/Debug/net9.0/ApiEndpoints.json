@@ -194,6 +194,80 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Backend.Controllers.PaymentController",
+    "Method": "InitiatePayment",
+    "RelativePath": "api/payment/{orderId}/initiate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.PaymentController",
+    "Method": "GetPaymentStatus",
+    "RelativePath": "api/payment/{paymentId}/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.PaymentController",
+    "Method": "HandleCallback",
+    "RelativePath": "api/payment/callback",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Backend.Controllers.CallbackRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.PaymentController",
+    "Method": "PaymentCancelled",
+    "RelativePath": "api/payment/cancel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.PaymentController",
+    "Method": "PaymentSuccess",
+    "RelativePath": "api/payment/success",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "session_id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Backend.Controllers.ProductController",
     "Method": "GetAllProducts",
     "RelativePath": "api/product",
