@@ -1,0 +1,8 @@
+# Ignore appsettings.json
+Backend/Backend/appsettings.json
+
+# Optional: Ignore the development appsettings
+Backend/Backend/appsettings.Development.json
+
+# Optional: Ignore all JSON configuration files (if required)
+Backend/Backend/*.json
