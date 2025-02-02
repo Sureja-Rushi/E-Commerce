@@ -3,69 +3,279 @@
   "WorkspaceRootPath": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.Orders.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.OrderItems.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.Payments.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\dtos\\orderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\orderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\dtos\\paymentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\paymentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.Orders.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\dtos\\createorderrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\createorderrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\dtos\\addaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\addaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\addressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\addressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\ratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\ratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\helpers\\jwttokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\helpers\\jwttokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\configurations\\jwtconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\configurations\\jwtconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.Addresses.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\iaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\iaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.Products.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.ProductSizes.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\dtos\\addcartitemrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\addcartitemrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\dtos\\addcartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\addcartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.CartItems.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\dtos\\addreviewrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\addreviewrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\dtos\\updateproductrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\updateproductrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\dtos\\sizedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\sizedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\dtos\\addproductrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\addproductrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\models\\productsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\models\\productsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\dtos\\addratingrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\addratingrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\iratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\iratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -75,7 +285,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -83,215 +293,833 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "dbo.OrderItems [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.OrderItems.sql",
-              "ToolTip": "dbo.OrderItems [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-15T13:56:56.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "dbo.Payments [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.Payments.sql",
-              "ToolTip": "dbo.Payments [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-15T13:52:40.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OrderDetailsDto.cs",
-              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\OrderDetailsDto.cs",
-              "RelativeDocumentMoniker": "Backend\\DTOs\\OrderDetailsDto.cs",
-              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\OrderDetailsDto.cs",
-              "RelativeToolTip": "Backend\\DTOs\\OrderDetailsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T13:38:13.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dbo.Orders [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.Orders.sql",
-              "ToolTip": "dbo.Orders [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-15T13:20:39.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "Backend\\Models\\Order.cs",
-              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Order.cs",
-              "RelativeToolTip": "Backend\\Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T13:23:15.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PaymentRequest.cs",
-              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\PaymentRequest.cs",
-              "RelativeDocumentMoniker": "Backend\\DTOs\\PaymentRequest.cs",
-              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\PaymentRequest.cs",
-              "RelativeToolTip": "Backend\\DTOs\\PaymentRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T17:29:29.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Program.cs",
-              "RelativeDocumentMoniker": "Backend\\Program.cs",
-              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Program.cs",
-              "RelativeToolTip": "Backend\\Program.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAkwEMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T10:09:05.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "Backend\\Services\\OrderService.cs",
-              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\OrderService.cs",
-              "RelativeToolTip": "Backend\\Services\\OrderService.cs",
-              "ViewState": "AgIAAIgAAABgZmZmZmYwwMEAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T08:53:12.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\appsettings.json",
-              "RelativeDocumentMoniker": "Backend\\appsettings.json",
-              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\appsettings.json",
-              "RelativeToolTip": "Backend\\appsettings.json",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-12T06:21:00.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Backend\\AppDbContext.cs",
-              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\AppDbContext.cs",
-              "RelativeToolTip": "Backend\\AppDbContext.cs",
-              "ViewState": "AgIAAG0AAABAMzMzMzMwwHcAAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T10:50:30.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Payment.cs",
-              "RelativeDocumentMoniker": "Backend\\Models\\Payment.cs",
-              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Payment.cs",
-              "RelativeToolTip": "Backend\\Models\\Payment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T10:39:57.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IPaymentService.cs",
-              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\IPaymentService.cs",
-              "RelativeDocumentMoniker": "Backend\\Services\\IPaymentService.cs",
-              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\IPaymentService.cs",
-              "RelativeToolTip": "Backend\\Services\\IPaymentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T10:03:27.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\PaymentController.cs",
               "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\PaymentController.cs",
               "RelativeToolTip": "Backend\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwDUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAABgZmZmZmYkwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T09:39:12.538Z",
+              "WhenOpened": "2025-01-10T04:57:06.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\IOrderService.cs",
-              "RelativeDocumentMoniker": "Backend\\Services\\IOrderService.cs",
-              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\IOrderService.cs",
-              "RelativeToolTip": "Backend\\Services\\IOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABOAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Payment.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Payment.cs",
+              "RelativeToolTip": "Backend\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T04:37:50.743Z",
+              "WhenOpened": "2025-01-10T05:09:38.758Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IPaymentRepository.cs",
-              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\IPaymentRepository.cs",
-              "RelativeDocumentMoniker": "Backend\\Repositories\\IPaymentRepository.cs",
-              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\IPaymentRepository.cs",
-              "RelativeToolTip": "Backend\\Repositories\\IPaymentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T04:36:21.642Z",
-              "EditorCaption": ""
+              "DocumentIndex": 8,
+              "Title": "dbo.Orders.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.Orders.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.Orders.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-10T05:01:44.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PaymentRepository.cs",
-              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\PaymentRepository.cs",
-              "RelativeDocumentMoniker": "Backend\\Repositories\\PaymentRepository.cs",
-              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\PaymentRepository.cs",
-              "RelativeToolTip": "Backend\\Repositories\\PaymentRepository.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAAAJUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T18:53:52.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 68,
               "Title": "PaymentService.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\PaymentService.cs",
               "RelativeDocumentMoniker": "Backend\\Services\\PaymentService.cs",
               "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\PaymentService.cs",
               "RelativeToolTip": "Backend\\Services\\PaymentService.cs",
-              "ViewState": "AgIAAA8AAAAAzczMzMwgwEgAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAFAAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T18:50:53.281Z",
+              "WhenOpened": "2025-01-10T04:59:17.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "PaymentRepository.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\PaymentRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Repositories\\PaymentRepository.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\PaymentRepository.cs",
+              "RelativeToolTip": "Backend\\Repositories\\PaymentRepository.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T04:55:21.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddressService.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\AddressService.cs",
+              "RelativeDocumentMoniker": "Backend\\Services\\AddressService.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\AddressService.cs",
+              "RelativeToolTip": "Backend\\Services\\AddressService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T18:09:57.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Address.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Address.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Address.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Address.cs",
+              "RelativeToolTip": "Backend\\Models\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T18:03:38.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "JwtTokenHelper.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Helpers\\JwtTokenHelper.cs",
+              "RelativeDocumentMoniker": "Backend\\Helpers\\JwtTokenHelper.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Helpers\\JwtTokenHelper.cs",
+              "RelativeToolTip": "Backend\\Helpers\\JwtTokenHelper.cs",
+              "ViewState": "AgIAAC8AAAAAZGZmZmb2vzIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T05:59:09.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "JwtConfiguration.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Configurations\\JwtConfiguration.cs",
+              "RelativeDocumentMoniker": "Backend\\Configurations\\JwtConfiguration.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Configurations\\JwtConfiguration.cs",
+              "RelativeToolTip": "Backend\\Configurations\\JwtConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T05:59:03.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "Backend\\Services\\IUserService.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\IUserService.cs",
+              "RelativeToolTip": "Backend\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T03:54:15.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Repositories\\IUserRepository.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Backend\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T03:51:24.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "dbo.Addresses.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.Addresses.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.Addresses.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-07T13:51:56.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateOrderRequestDTO.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\CreateOrderRequestDTO.cs",
+              "RelativeDocumentMoniker": "Backend\\DTOs\\CreateOrderRequestDTO.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\CreateOrderRequestDTO.cs",
+              "RelativeToolTip": "Backend\\DTOs\\CreateOrderRequestDTO.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T18:08:51.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\OrderController.cs*",
+              "RelativeToolTip": "Backend\\Controllers\\OrderController.cs*",
+              "ViewState": "AgIAABIBAAAAzMzMzMwswCsBAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T18:05:51.038Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IAddressRepository.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\IAddressRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Repositories\\IAddressRepository.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\IAddressRepository.cs",
+              "RelativeToolTip": "Backend\\Repositories\\IAddressRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T18:03:26.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddressRepository.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\AddressRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Repositories\\AddressRepository.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\AddressRepository.cs",
+              "RelativeToolTip": "Backend\\Repositories\\AddressRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T18:02:43.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Backend\\Services\\OrderService.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\OrderService.cs",
+              "RelativeToolTip": "Backend\\Services\\OrderService.cs",
+              "ViewState": "AgIAAAcAAAAAZmZmZmYuwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T18:01:12.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Backend\\Services\\IOrderService.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\IOrderService.cs",
+              "RelativeToolTip": "Backend\\Services\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T18:00:26.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Repositories\\OrderRepository.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "Backend\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAJ4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T17:53:03.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Repositories\\IOrderRepository.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\IOrderRepository.cs",
+              "RelativeToolTip": "Backend\\Repositories\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T17:51:25.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\OrderItem.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\OrderItem.cs",
+              "RelativeToolTip": "Backend\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T17:50:16.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CartItemDto.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\CartItemDto.cs",
+              "RelativeDocumentMoniker": "Backend\\DTOs\\CartItemDto.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\CartItemDto.cs",
+              "RelativeToolTip": "Backend\\DTOs\\CartItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:37:36.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "dbo.CartItems.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.CartItems.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.CartItems.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-06T10:25:12.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AddCartItemRequestDTO.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\AddCartItemRequestDTO.cs",
+              "RelativeDocumentMoniker": "Backend\\DTOs\\AddCartItemRequestDTO.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\AddCartItemRequestDTO.cs",
+              "RelativeToolTip": "Backend\\DTOs\\AddCartItemRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T09:30:44.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "dbo.ProductSizes.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.ProductSizes.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.ProductSizes.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-06T08:46:10.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "dbo.Products.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.Products.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.Products.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-06T08:46:00.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGMAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T14:33:26.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "Backend\\Services\\CartService.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\CartService.cs",
+              "RelativeToolTip": "Backend\\Services\\CartService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAYwDoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T14:31:57.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\ICartService.cs",
+              "RelativeDocumentMoniker": "Backend\\Services\\ICartService.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\ICartService.cs",
+              "RelativeToolTip": "Backend\\Services\\ICartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T14:31:19.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\CartRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Repositories\\CartRepository.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\CartRepository.cs",
+              "RelativeToolTip": "Backend\\Repositories\\CartRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T14:24:34.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ICartRepository.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\ICartRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Repositories\\ICartRepository.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\ICartRepository.cs",
+              "RelativeToolTip": "Backend\\Repositories\\ICartRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T14:23:15.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\CartItem.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\CartItem.cs",
+              "RelativeToolTip": "Backend\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T13:12:05.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Cart.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Cart.cs",
+              "RelativeToolTip": "Backend\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T12:59:21.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RatingController.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\RatingController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\RatingController.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\RatingController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\RatingController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T09:59:49.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "AddRatingRequestDTO.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\AddRatingRequestDTO.cs",
+              "RelativeDocumentMoniker": "Backend\\DTOs\\AddRatingRequestDTO.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\AddRatingRequestDTO.cs",
+              "RelativeToolTip": "Backend\\DTOs\\AddRatingRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T10:19:08.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "RatingService.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\RatingService.cs",
+              "RelativeDocumentMoniker": "Backend\\Services\\RatingService.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\RatingService.cs",
+              "RelativeToolTip": "Backend\\Services\\RatingService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T09:48:47.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "IRatingService.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\IRatingService.cs",
+              "RelativeDocumentMoniker": "Backend\\Services\\IRatingService.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\IRatingService.cs",
+              "RelativeToolTip": "Backend\\Services\\IRatingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T09:46:04.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RatingRepository.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\RatingRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Repositories\\RatingRepository.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\RatingRepository.cs",
+              "RelativeToolTip": "Backend\\Repositories\\RatingRepository.cs",
+              "ViewState": "AgIAAAgAAABAZmZmZmYswBgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T09:42:16.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "IRatingRepository.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\IRatingRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Repositories\\IRatingRepository.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\IRatingRepository.cs",
+              "RelativeToolTip": "Backend\\Repositories\\IRatingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T09:39:52.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Order.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Order.cs",
+              "RelativeToolTip": "Backend\\Models\\Order.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:48:17.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "AddReviewRequestDTO.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\AddReviewRequestDTO.cs",
+              "RelativeDocumentMoniker": "Backend\\DTOs\\AddReviewRequestDTO.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\AddReviewRequestDTO.cs",
+              "RelativeToolTip": "Backend\\DTOs\\AddReviewRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:44:44.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\ReviewController.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\ReviewController.cs",
+              "ViewState": "AgIAABIAAABAZmZmZmYSwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:35:25.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Backend\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:29:18.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Backend\\Services\\UserService.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\UserService.cs",
+              "RelativeToolTip": "Backend\\Services\\UserService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwB0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:28:22.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ReviewService.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\ReviewService.cs",
+              "RelativeDocumentMoniker": "Backend\\Services\\ReviewService.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\ReviewService.cs",
+              "RelativeToolTip": "Backend\\Services\\ReviewService.cs",
+              "ViewState": "AgIAAAwAAACgmZmZmZkvwBwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:24:03.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IReviewService.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\IReviewService.cs",
+              "RelativeDocumentMoniker": "Backend\\Services\\IReviewService.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\IReviewService.cs",
+              "RelativeToolTip": "Backend\\Services\\IReviewService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:22:41.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IReviewRepository.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\IReviewRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Repositories\\IReviewRepository.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\IReviewRepository.cs",
+              "RelativeToolTip": "Backend\\Repositories\\IReviewRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:18:03.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Review.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Review.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Review.cs",
+              "RelativeToolTip": "Backend\\Models\\Review.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA5wBAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T16:57:08.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Rating.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Rating.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Rating.cs",
+              "RelativeToolTip": "Backend\\Models\\Rating.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T05:42:48.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AddCartItemDto.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\AddCartItemDto.cs",
+              "RelativeDocumentMoniker": "Backend\\DTOs\\AddCartItemDto.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\AddCartItemDto.cs",
+              "RelativeToolTip": "Backend\\DTOs\\AddCartItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T16:03:46.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddAddressDTO.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\AddAddressDTO.cs",
+              "RelativeDocumentMoniker": "Backend\\DTOs\\AddAddressDTO.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\AddAddressDTO.cs",
+              "RelativeToolTip": "Backend\\DTOs\\AddAddressDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T16:03:44.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Backend\\DTOs\\ProductDto.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "Backend\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T16:03:38.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "SizeDTO.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\SizeDTO.cs",
+              "RelativeDocumentMoniker": "Backend\\DTOs\\SizeDTO.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\SizeDTO.cs",
+              "RelativeToolTip": "Backend\\DTOs\\SizeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T16:03:14.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "UpdateProductRequestDTO.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\UpdateProductRequestDTO.cs",
+              "RelativeDocumentMoniker": "Backend\\DTOs\\UpdateProductRequestDTO.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\UpdateProductRequestDTO.cs",
+              "RelativeToolTip": "Backend\\DTOs\\UpdateProductRequestDTO.cs",
+              "ViewState": "AgIAABEAAABAZmZmZmYewBwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T14:47:01.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T15:19:16.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T15:18:15.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Backend\\AppDbContext.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\AppDbContext.cs",
+              "RelativeToolTip": "Backend\\AppDbContext.cs",
+              "ViewState": "AgIAAIwBAAAAAAAAAAAkwJ4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T12:33:17.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAHoBAAAAMjMzMzMXwIABAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T09:59:23.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ReviewRepository.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\ReviewRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Repositories\\ReviewRepository.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\ReviewRepository.cs",
+              "RelativeToolTip": "Backend\\Repositories\\ReviewRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:18:55.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\User.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\User.cs",
+              "RelativeToolTip": "Backend\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T10:06:18.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "AddProductRequestDTO.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\AddProductRequestDTO.cs",
+              "RelativeDocumentMoniker": "Backend\\DTOs\\AddProductRequestDTO.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\AddProductRequestDTO.cs",
+              "RelativeToolTip": "Backend\\DTOs\\AddProductRequestDTO.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwBsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T10:02:14.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Backend\\Services\\ProductService.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\ProductService.cs",
+              "RelativeToolTip": "Backend\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAQwBABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T09:57:52.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "Backend\\Services\\IProductService.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\IProductService.cs",
+              "RelativeToolTip": "Backend\\Services\\IProductService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA0wC4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T09:57:05.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Backend\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAAAAAN8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T09:50:08.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\Repositories\\IProductRepository.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "Backend\\Repositories\\IProductRepository.cs",
+              "ViewState": "AgIAAC4AAAAAMzMzMzMDwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T09:50:03.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Category.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Category.cs",
+              "RelativeToolTip": "Backend\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T10:02:22.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ProductSize.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\ProductSize.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\ProductSize.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\ProductSize.cs",
+              "RelativeToolTip": "Backend\\Models\\ProductSize.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T09:59:15.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Product.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Product.cs",
+              "RelativeToolTip": "Backend\\Models\\Product.cs",
+              "ViewState": "AgIAABMAAAAwMzMzMzMywBMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T09:56:53.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "Backend\\appsettings.json",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\appsettings.json",
+              "RelativeToolTip": "Backend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-23T17:25:03.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T14:37:07.838Z"
             }
           ]
         }

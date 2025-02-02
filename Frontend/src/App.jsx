@@ -10,12 +10,14 @@ import Order from "./customers/components/order/Order";
 import OrderDetails from "./customers/components/order/OrderDetails";
 import { Route, Routes } from "react-router";
 import CustomerRouters from "./routers/CustomerRouters";
+import AdminRouters from "./routers/AdminRouters";
 
 function App() {
   return (
     <div>
       <Routes>
         <Route path="/*" element={<CustomerRouters />}></Route>
+        <Route path="/admin/*" element={<AdminRouters />} ></Route>
       </Routes>
       {/* <Navbar /> */}
       {/* <div> */}

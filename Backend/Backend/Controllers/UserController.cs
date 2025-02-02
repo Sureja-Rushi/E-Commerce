@@ -1,4 +1,6 @@
 ﻿using Backend.DTOs;
+using Backend.Helpers;
+using Backend.Models;
 using Backend.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,13 +12,13 @@ namespace Backend.Controllers
     {
         private readonly IUserService userService;
         private readonly IAuthService authService;
-        private readonly ICartService cartService;
+        //private readonly ICartService cartService;
 
-        public UserController(IUserService userService, IAuthService authService, ICartService cartService)
+        public UserController(IUserService userService, IAuthService authService)
         {
             this.userService = userService;
             this.authService = authService;
-            this.cartService = cartService;
+            //this.cartService = cartService;
         }
 
         [HttpPost("register")]
@@ -41,7 +43,7 @@ namespace Backend.Controllers
 
                 return CreatedAtAction(nameof(Register), new { id = response.User.Id }, new
                 {
-                    message = $"Welcome {response.User.FullName}, registration successful!",
+                    message = $"Welcome {response.User.FirstName} {response.User.LastName}, registration successful!",
                     token = response.Token
                 });
             }
@@ -51,6 +53,34 @@ namespace Backend.Controllers
             }
         }
 
+        [HttpGet]
+        [Route("")]
+        public async Task<ActionResult<User>> GetUser([FromHeader(Name = "Authorization")] string authorizationHeader)
+        {
+            try
+            {
+                //var token = Request.Cookies["AuthToken"];
+                //if (string.IsNullOrEmpty(token))
+                //{
+                //    return Unauthorized(new { message = "Token is not present" });
+                //}
+
+                if (string.IsNullOrEmpty(authorizationHeader) || !authorizationHeader.StartsWith("Bearer "))
+                {
+                    return Unauthorized(new { message = "Authorization token is not provided or invalid." });
+                }
+
+                // Extract the JWT token from the Authorization header
+                var token = authorizationHeader.Substring("Bearer ".Length).Trim();
+                var userId = JwtTokenHelper.GetUserFromToken(token).Id;
+                var user = await userService.GetUserByIdAsync(userId);
+                return Ok(user);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"Error: {ex.Message}");
+            }
+        }
 
         private void SetJwtTokenCookie(string token)
         {
@@ -58,7 +88,7 @@ namespace Backend.Controllers
             {
                 HttpOnly = true,
                 Secure = true,
-                SameSite = SameSiteMode.Strict,
+                SameSite = SameSiteMode.None,
                 Expires = DateTime.UtcNow.AddHours(1)
             };
 

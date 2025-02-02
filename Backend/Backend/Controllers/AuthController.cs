@@ -10,12 +10,12 @@ namespace Backend.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IAuthService authService;
-        private readonly ICartService cartService;
+        //private readonly ICartService cartService;
 
-        public AuthController(IAuthService authService, ICartService cartService)
+        public AuthController(IAuthService authService)
         {
             this.authService = authService;
-            this.cartService = cartService;
+            //this.cartService = cartService;
         }
 
         [HttpPost("login")]

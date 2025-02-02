@@ -42,7 +42,9 @@ namespace Backend.Services
                 User = new UserDto
                 {
                     Id = user.Id,
-                    FullName = user.FullName,
+                    FirstName = user.FirstName,
+                    LastName = user.LastName,
+                    ContactNumber = user.ContactNumber,
                     Email = user.Email,
                     Role = user.Role
                 }

@@ -5,17 +5,10 @@ namespace Backend.Services
 {
     public interface ICartService
     {
-        //Task AddItemToUserCartAsync(int userId, AddCartItemDto item);
-        //Task AddItemToGuestCartAsync(string guestCartId, AddCartItemDto item);
-        //Task<CartDto> GetUserCartAsync(int userId);
-        //Task<CartDto> GetGuestCartAsync(string guestCartId);
-        //Task RemoveItemFromUserCartAsync(int userId, int itemId);
-        //Task RemoveItemFromGuestCartAsync(string guestCartId, int itemId);
-        //Task MergeGuestCartToUserCartAsync(string guestCartId, int userId);
-
-        int? GetUserIdFromToken();
-        Task<CartDto> GetCartAsync();
-        Task AddOrUpdateCartItemAsync(AddCartItemDto cartItemDto);
-        Task RemoveCartItemAsync(int productId, bool removeAll = false);
+        Task<bool> CreateCartForUserAsync(int userId);
+        Task<Cart> GetCartForUserAsync(int userId);
+        Task<bool> AddCartItemAsync(int userId, int productId, string sizeName);
+        Task<bool> RemoveCartItemAsync(int userId, int productId, string sizeName, bool removeEntireItem);
+        Task<CartItemDto> GetCartItemByIdAsync(int cartItemId);
     }
 }

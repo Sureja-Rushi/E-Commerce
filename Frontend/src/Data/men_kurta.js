@@ -6,25 +6,25 @@ export const men_kurta=[
         "color": "Green",
         "discountedPrice": 499,
         "price": 1499,
-        "discountPersent": 66,
-        "size": [
+        "discountPercent": 66,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -34,25 +34,25 @@ export const men_kurta=[
         "color": "Yellow",
         "discountedPrice": 799,
         "price": 2499,
-        "discountPersent": 68,
-        "size": [
+        "discountPercent": 68,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -62,25 +62,25 @@ export const men_kurta=[
         "color": "Blue",
         "discountedPrice": 399,
         "price": 1499,
-        "discountPersent": 73,
-        "size": [
+        "discountPercent": 73,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -90,25 +90,25 @@ export const men_kurta=[
         "color": "White",
         "discountedPrice": 474,
         "price": 1999,
-        "discountPersent": 76,
-        "size": [
+        "discountPercent": 76,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -118,25 +118,25 @@ export const men_kurta=[
         "color": "Grey",
         "discountedPrice": 524,
         "price": 1049,
-        "discountPersent": 50,
-        "size": [
+        "discountPercent": 50,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -146,25 +146,25 @@ export const men_kurta=[
         "color": "Pink",
         "discountedPrice": 499,
         "price": 1499,
-        "discountPersent": 66,
-        "size": [
+        "discountPercent": 66,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -174,25 +174,25 @@ export const men_kurta=[
         "color": "Black",
         "discountedPrice": 277,
         "price": 999,
-        "discountPersent": 72,
-        "size": [
+        "discountPercent": 72,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -202,25 +202,25 @@ export const men_kurta=[
         "color": "Blue",
         "discountedPrice": 765,
         "price": 1049,
-        "discountPersent": 27,
-        "size": [
+        "discountPercent": 27,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -230,25 +230,25 @@ export const men_kurta=[
         "color": "Green",
         "discountedPrice": 499,
         "price": 1599,
-        "discountPersent": 68,
-        "size": [
+        "discountPercent": 68,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -258,25 +258,25 @@ export const men_kurta=[
         "color": "Yellow",
         "discountedPrice": 429,
         "price": 999,        
-        "discountPersent": 57,
-        "size": [
+        "discountPercent": 57,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -286,25 +286,25 @@ export const men_kurta=[
         "color": "Light Blue",
         "discountedPrice": 729,
         "price": 909,        
-        "discountPersent": 27,
-        "size": [
+        "discountPercent": 27,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -314,25 +314,25 @@ export const men_kurta=[
         "color": "Green",
         "discountedPrice": 449,
         "price": 1749,
-        "discountPersent": 74,
-        "size": [
+        "discountPercent": 74,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -342,25 +342,25 @@ export const men_kurta=[
         "color": "Dark Blue",
         "discountedPrice": 449,
         "price": 1499,
-        "discountPersent": 70,
-        "size": [
+        "discountPercent": 70,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -370,25 +370,25 @@ export const men_kurta=[
         "color": "Yellow",
         "discountedPrice": 385,
         "price": 1299,
-        "discountPersent": 70,
-        "size": [
+        "discountPercent": 70,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -398,25 +398,25 @@ export const men_kurta=[
         "color": "Orange",
         "discountedPrice": 395,
         "price": 1495,
-        "discountPersent": 73,
-        "size": [
+        "discountPercent": 73,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -426,25 +426,25 @@ export const men_kurta=[
         "color": "Dark Blue",
         "discountedPrice": 399,
         "price": 1648,
-        "discountPersent": 75,
-        "size": [
+        "discountPercent": 75,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -454,25 +454,25 @@ export const men_kurta=[
         "color": "White",
         "discountedPrice": 599,
         "price": 2499,
-        "discountPersent": 76,
-        "size": [
+        "discountPercent": 76,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -482,25 +482,25 @@ export const men_kurta=[
         "color": "White",
         "discountedPrice": 629,
         "price": 2499,
-        "discountPersent": 74,
-        "size": [
+        "discountPercent": 74,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -510,25 +510,25 @@ export const men_kurta=[
         "color": "White",
         "discountedPrice": 370,
         "price": 1499,
-        "discountPersent": 75,
-        "size": [
+        "discountPercent": 75,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -538,25 +538,25 @@ export const men_kurta=[
         "color": "Yellow",
         "discountedPrice": 363,
         "price": 1499,
-        "discountPersent": 75,
-        "size": [
+        "discountPercent": 75,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -566,25 +566,25 @@ export const men_kurta=[
         "color": "Beige",
         "discountedPrice": 629,
         "price": 2499,
-        "discountPersent": 74,
-        "size": [
+        "discountPercent": 74,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -594,25 +594,25 @@ export const men_kurta=[
         "color": "Light Blue",
         "discountedPrice": 629,
         "price": 2499,
-        "discountPersent": 74,
-        "size": [
+        "discountPercent": 74,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -622,25 +622,25 @@ export const men_kurta=[
         "color": "Purple",
         "discountedPrice": 399,
         "price": 1648,
-        "discountPersent": 75,
-        "size": [
+        "discountPercent": 75,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -650,25 +650,25 @@ export const men_kurta=[
         "color": "Pink",
         "discountedPrice": 499,
         "price": 1499,
-        "discountPersent": 66,
-        "size": [
+        "discountPercent": 66,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -678,25 +678,25 @@ export const men_kurta=[
         "color": "Yellow",
         "discountedPrice": 265,
         "price": 1499,
-        "discountPersent": 82,
-        "size": [
+        "discountPercent": 82,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -706,25 +706,25 @@ export const men_kurta=[
         "color": "Blue",
         "discountedPrice": 483,
         "price": 1999,
-        "discountPersent": 75,
-        "size": [
+        "discountPercent": 75,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -734,25 +734,25 @@ export const men_kurta=[
         "color": "Light Green",
         "discountedPrice": 499,
         "price": 1499,
-        "discountPersent": 66,
-        "size": [
+        "discountPercent": 66,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -762,25 +762,25 @@ export const men_kurta=[
         "color": "Orange",
         "discountedPrice": 499,
         "price": 1499,
-        "discountPersent": 66,
-        "size": [
+        "discountPercent": 66,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -790,25 +790,25 @@ export const men_kurta=[
         "color": "Maroon",
         "discountedPrice": 399,
         "price": 1648,
-        "discountPersent": 75,
-        "size": [
+        "discountPercent": 75,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -818,25 +818,25 @@ export const men_kurta=[
         "color": "Pink",
         "discountedPrice": 449,
         "price": 1749,
-        "discountPersent": 74,
-        "size": [
+        "discountPercent": 74,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -846,25 +846,25 @@ export const men_kurta=[
         "color": "Dark Blue",
         "discountedPrice": 468,
         "price": 1599,
-        "discountPersent": 70,
-        "size": [
+        "discountPercent": 70,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -874,25 +874,25 @@ export const men_kurta=[
         "color": "Dark Blue",
         "discountedPrice": 499,
         "price": 1749,
-        "discountPersent": 71,
-        "size": [
+        "discountPercent": 71,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -902,25 +902,25 @@ export const men_kurta=[
         "color": "Yellow",
         "discountedPrice": 467,
         "price": 2199,
-        "discountPersent": 78,
-        "size": [
+        "discountPercent": 78,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -930,25 +930,25 @@ export const men_kurta=[
         "color": "Gold",
         "discountedPrice": 810,
         "price": 2499,
-        "discountPersent": 67,
-        "size": [
+        "discountPercent": 67,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -958,25 +958,25 @@ export const men_kurta=[
         "color": "Maroon",
         "discountedPrice": 478,
         "price": 1279,
-        "discountPersent": 62,
-        "size": [
+        "discountPercent": 62,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -986,25 +986,25 @@ export const men_kurta=[
         "color": "Black",
         "discountedPrice": 399,
         "price": 1648,
-        "discountPersent": 75,
-        "size": [
+        "discountPercent": 75,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -1014,25 +1014,25 @@ export const men_kurta=[
         "color": "Orange",
         "discountedPrice": 948,
         "price": 1299,
-        "discountPersent": 27,
-        "size": [
+        "discountPercent": 27,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -1042,25 +1042,25 @@ export const men_kurta=[
         "color": "Multicolor",
         "discountedPrice": 994,
         "price": 2499,
-        "discountPersent": 60,
-        "size": [
+        "discountPercent": 60,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -1070,25 +1070,25 @@ export const men_kurta=[
         "color": "Pink",
         "discountedPrice": 362,
         "price": 1499,
-        "discountPersent": 75,
-        "size": [
+        "discountPercent": 75,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -1098,25 +1098,25 @@ export const men_kurta=[
         "color": "White",
         "discountedPrice": 393,
         "price": 1599,
-        "discountPersent": 75,
-        "size": [
+        "discountPercent": 75,
+        "sizes": [
             {
-              "name": "S",
+              "sizeName": "S",
               "quantity": 20
             },
             {
-              "name": "M",
+              "sizeName": "M",
               "quantity": 30
             },
             {
-              "name": "L",
+              "sizeName": "L",
               "quantity": 50
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+          "grandParentCategoryName": "Men",
+          "parentCategoryName": "Clothing",
+          "categoryName": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     }
 ]

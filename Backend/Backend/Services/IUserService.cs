@@ -1,4 +1,5 @@
 ﻿using Backend.DTOs;
+using Backend.Models;
 
 namespace Backend.Services
 {
@@ -6,7 +7,7 @@ namespace Backend.Services
     {
         Task<RegisterResponseDto> RegisterAsync(RegisterRequestDto request);
 
-        Task<UserDto> GetUserByIdAsync(int userId);
+        Task<User> GetUserByIdAsync(int userId);
 
         Task<UserDto> UpdateUserAsync(int userId, UserDto updateDto);
 

@@ -13,7 +13,9 @@ namespace Backend.Repositories
 
         public async Task<User> GetUserByIdAsync(int userId)
         {
-            return await _context.Users.FindAsync(userId);
+            return await _context.Users
+                .Include(u => u.Addresses) // Include user's addresses
+                .FirstOrDefaultAsync(u => u.Id == userId);
         }
 
         public async Task<User> GetUserByEmailAsync(string email)

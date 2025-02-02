@@ -14,14 +14,16 @@ namespace Backend.Services
     {
         private readonly IUserRepository userRepository;
         private readonly JwtConfiguration configuration;
+        private readonly ICartRepository cartRepository;
 
-        public UserService(IUserRepository userRepository, IOptions<JwtConfiguration> configuration)
+        public UserService(IUserRepository userRepository, IOptions<JwtConfiguration> configuration, ICartRepository cartRepository)
         {
             this.userRepository = userRepository ?? throw new ArgumentNullException(nameof(userRepository));
             this.configuration = configuration.Value;
+            this.cartRepository = cartRepository ?? throw new ArgumentNullException(nameof(cartRepository));
         }
 
-        public async Task<UserDto> GetUserByIdAsync(int userId)
+        public async Task<User> GetUserByIdAsync(int userId)
         {
             var user = await userRepository.GetUserByIdAsync(userId);
             if (user == null)
@@ -29,13 +31,7 @@ namespace Backend.Services
                 throw new KeyNotFoundException("User not found.");
             }
 
-            return new UserDto
-            {
-                Id = user.Id,
-                FullName = user.FullName,
-                Email = user.Email,
-                Role = user.Role
-            };
+            return user;
         }
 
         public async Task<RegisterResponseDto> RegisterAsync(RegisterRequestDto request)
@@ -51,15 +47,18 @@ namespace Backend.Services
 
             var newUser = new User
             {
-                FullName = request.FullName,
+                FirstName = request.FirstName,
+                LastName = request.LastName,
                 Email = request.Email,
-                Role = string.IsNullOrEmpty(request.Role) ? "User" : request.Role,
+                ContactNumber = request.ContactNumber,
                 CreatedAt = DateTime.UtcNow
             };
 
             newUser.PasswordHash = passwordHasher.HashPassword(newUser, request.Password);
 
             var createdUser = await userRepository.CreateUserAsync(newUser);
+
+            await cartRepository.CreateCartAsync(createdUser.Id);
 
             // Generate JWT token
             var token = JwtTokenHelper.GenerateToken(
@@ -74,9 +73,10 @@ namespace Backend.Services
                 User = new UserDto
                 {
                     Id = createdUser.Id,
-                    FullName = createdUser.FullName,
+                    FirstName = createdUser.FirstName,
+                    LastName = createdUser.LastName,
                     Email = createdUser.Email,
-                    Role = createdUser.Role
+                    ContactNumber = createdUser.ContactNumber
                 },
                 Token = token
             };
@@ -90,8 +90,11 @@ namespace Backend.Services
             {
                 throw new KeyNotFoundException("User not found.");
             }
-            user.FullName = updateDto.FullName;
+            user.FirstName = updateDto.FirstName;
+            user.LastName = updateDto.LastName;
             user.Email = updateDto.Email;
+            user.Role = updateDto.Role;
+            user.ContactNumber = updateDto.ContactNumber;
             user.Role = updateDto.Role;
 
             var updatedUser = await userRepository.UpdateUserAsync(user);
@@ -99,9 +102,11 @@ namespace Backend.Services
             return new UserDto
             {
                 Id = updatedUser.Id,
-                FullName = updatedUser.FullName,
+                FirstName = updatedUser.FirstName,
+                LastName = updatedUser.LastName,
                 Email = updatedUser.Email,
-                Role = updatedUser.Role
+                Role = updatedUser.Role,
+                ContactNumber = updatedUser.ContactNumber
             };
         }
 

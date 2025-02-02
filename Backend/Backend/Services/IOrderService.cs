@@ -1,15 +1,15 @@
-﻿using Backend.DTOs;
-using Backend.Models;
+﻿using Backend.Models;
 
 namespace Backend.Services
 {
     public interface IOrderService
     {
-        Task<Order> CreateOrderAsync(int userId, string shippingAddress);
-        Task UpdateOrderStatusAsync(int orderId, string status);
-        Task<IQueryable<Order>> GetUserOrdersAsync(int userId);
-        Task<OrderDetailsDto> GetOrderDetailsAsync(int orderId, int userId);
-        Task<List<OrderDetailsDto>> GetOrdersByStatusAsync(string status);
-        Task UpdateOrderPaymentStatusAsync(int orderId, string paymentStatus);
+        Task<(bool Success, string Message, int OrderId)> CreateOrderFromCartAsync(int userId, int? existingAddressId, Address newAddress = null);
+        Task<bool> ChangeOrderStatusAsync(int orderId, string status);
+        Task<Order> GetOrderByIdAsync(int orderId);
+        Task<List<Order>> GetUserOrderHistoryAsync(int userId);
+        Task<List<Order>> GetAllOrdersAsync();
+        Task DeleteOrderByIdAsync(int orderId);
+
     }
 }

@@ -25,15 +25,23 @@ namespace Backend.Controllers
         }
 
         [HttpPost("{orderId}/initiate")]
-        public async Task<IActionResult> InitiatePayment(int orderId)
+        public async Task<IActionResult> InitiatePayment(int orderId, [FromHeader(Name = "Authorization")] string authorizationHeader)
         {
             try
             {
-                var userId = GetUserIdFromToken();
+                //var userId = GetUserIdFromToken();
+                if (string.IsNullOrEmpty(authorizationHeader) || !authorizationHeader.StartsWith("Bearer "))
+                {
+                    return Unauthorized(new { message = "Authorization token is not provided or invalid." });
+                }
+
+                // Extract the JWT token from the Authorization header
+                var token = authorizationHeader.Substring("Bearer ".Length).Trim();
+                var userId = JwtTokenHelper.GetUserFromToken(token).Id;
                 if (userId == null)
                     return Unauthorized(new { error = "User not authenticated" });
 
-                var sessionUrl = await _paymentService.CreatePaymentSessionAsync(orderId, userId.Value);
+                var sessionUrl = await _paymentService.CreatePaymentSessionAsync(orderId, userId);
                 return Ok(new { url = sessionUrl });
             }
             catch (Exception ex)

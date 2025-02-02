@@ -10,17 +10,19 @@ namespace Backend.Services
         private readonly IConfiguration _config;
         private readonly IOrderService _orderService; // Assume this manages orders
         private readonly IPaymentRepository _paymentRepository;
+        private readonly IOrderRepository _orderRepository;
 
-        public PaymentService(IConfiguration config, IOrderService orderService, IPaymentRepository paymentRepository)
+        public PaymentService(IConfiguration config, IOrderService orderService, IPaymentRepository paymentRepository, IOrderRepository orderRepository)
         {
             _config = config;
             _orderService = orderService;
             _paymentRepository = paymentRepository;
+            _orderRepository = orderRepository;
         }
 
         public async Task<string> CreatePaymentSessionAsync(int orderId, int userId)
         {
-            var order = await _orderService.GetOrderDetailsAsync(orderId, userId);
+            var order = await _orderService.GetOrderByIdAsync(orderId);
             if (order == null)
                 throw new Exception("Invalid order details.");
 
@@ -38,18 +40,18 @@ namespace Backend.Services
                     {
                         PriceData = new SessionLineItemPriceDataOptions
                         {
-                            UnitAmountDecimal = order.TotalAmount * 100, // Stripe requires the amount in cents
-                            Currency = "usd", // Change to your currency as needed
+                            UnitAmountDecimal = order.TotalDiscountedPrice * 100, // Stripe requires the amount in cents
+                            Currency = "inr", // Change to your currency as needed
                             ProductData = new SessionLineItemPriceDataProductDataOptions
                             {
-                                Name = $"Order #{order.OrderId}",
+                                Name = $"Payment Requested from Trendy Fashions...",
                             },
                         },
                         Quantity = 1,
                     },
                 },
                 Mode = "payment",
-                SuccessUrl = "https://www.google.com",
+                SuccessUrl = $"http://localhost:5173/payment/{order.Id}",
                 CancelUrl = "https://www.youtube.com",
             };
 
@@ -76,12 +78,12 @@ namespace Backend.Services
             if (session.PaymentStatus == "paid")
             {
                 await _paymentRepository.UpdatePaymentStatusAsync(payment.Id, "Success");
-                await _orderService.UpdateOrderPaymentStatusAsync(payment.OrderId, "Success");
+                await _orderRepository.UpdateOrderStatusAsync(payment.OrderId, "placed");
             }
             else
             {
                 await _paymentRepository.UpdatePaymentStatusAsync(payment.Id, "Failed");
-                await _orderService.UpdateOrderPaymentStatusAsync(payment.OrderId, "Failed");
+                await _orderRepository.UpdateOrderPaymentStatusAsync(payment.OrderId, "Failed");
             }
         }
 

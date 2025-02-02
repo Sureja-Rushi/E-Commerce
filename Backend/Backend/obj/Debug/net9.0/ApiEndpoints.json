@@ -1,5 +1,57 @@
 [
   {
+    "ContainingType": "Backend.Controllers.AddressController",
+    "Method": "AddAddress",
+    "RelativePath": "api/address",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addressDto",
+        "Type": "Backend.DTOs.AddAddressDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.AddressController",
+    "Method": "GetAddressesByUserId",
+    "RelativePath": "api/address/user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.UserController",
+    "Method": "GetUser",
+    "RelativePath": "api/auth",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Authorization",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Backend.Models.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Backend.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/auth/login",
@@ -68,20 +120,57 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "Authorization",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "Backend.Controllers.CartController",
-    "Method": "AddOrUpdateCartItem",
-    "RelativePath": "api/cart/items",
+    "Method": "AddCartItem",
+    "RelativePath": "api/cart/add-item",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "cartItemDto",
-        "Type": "Backend.DTOs.AddCartItemDto",
+        "Name": "request",
+        "Type": "Backend.DTOs.AddCartItemRequestDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "Authorization",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.CartController",
+    "Method": "CreateCart",
+    "RelativePath": "api/cart/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.CartController",
+    "Method": "GetCartItemById",
+    "RelativePath": "api/cart/item/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -90,14 +179,19 @@
   {
     "ContainingType": "Backend.Controllers.CartController",
     "Method": "RemoveCartItem",
-    "RelativePath": "api/cart/items/{productId}",
+    "RelativePath": "api/cart/removeItem",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "productId",
-        "Type": "System.Int32",
+        "Name": "Authorization",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "request",
+        "Type": "Backend.DTOs.AddCartItemRequestDTO",
         "IsRequired": true
       },
       {
@@ -110,39 +204,17 @@
   },
   {
     "ContainingType": "Backend.Controllers.OrderController",
-    "Method": "CreateOrder",
-    "RelativePath": "api/order",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "Backend.Controllers.CreateOrderRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Backend.Controllers.OrderController",
-    "Method": "GetOrders",
+    "Method": "GetAllOrders",
     "RelativePath": "api/order",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "status",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
     "ContainingType": "Backend.Controllers.OrderController",
-    "Method": "GetOrderDetails",
+    "Method": "GetOrderById",
     "RelativePath": "api/order/{orderId}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -158,9 +230,25 @@
   },
   {
     "ContainingType": "Backend.Controllers.OrderController",
-    "Method": "UpdateOrderStatus",
+    "Method": "DeleteOrderById",
+    "RelativePath": "api/order/{orderId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.OrderController",
+    "Method": "ChangeOrderStatus",
     "RelativePath": "api/order/{orderId}/status",
-    "HttpMethod": "POST",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -170,17 +258,38 @@
         "IsRequired": true
       },
       {
-        "Name": "updateOrderStatusDto",
-        "Type": "Backend.Controllers.UpdateOrderStatusDto",
-        "IsRequired": true
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "Backend.Controllers.OrderController",
-    "Method": "GetUserOrders",
-    "RelativePath": "api/order/user/{userId}",
+    "Method": "CreateOrderFromCart",
+    "RelativePath": "api/order/create-order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Backend.DTOs.CreateOrderRequestDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "Authorization",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.OrderController",
+    "Method": "GetUserOrderHistory",
+    "RelativePath": "api/order/history/{userId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -205,6 +314,11 @@
         "Name": "orderId",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "Authorization",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -269,16 +383,6 @@
   },
   {
     "ContainingType": "Backend.Controllers.ProductController",
-    "Method": "GetAllProducts",
-    "RelativePath": "api/product",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Backend.Controllers.ProductController",
     "Method": "AddProduct",
     "RelativePath": "api/product",
     "HttpMethod": "POST",
@@ -286,8 +390,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "productDto",
-        "Type": "Backend.DTOs.CreateProductDto",
+        "Name": "request",
+        "Type": "Backend.DTOs.AddProductRequestDTO",
         "IsRequired": true
       }
     ],
@@ -295,9 +399,70 @@
   },
   {
     "ContainingType": "Backend.Controllers.ProductController",
-    "Method": "GetProductDetails",
-    "RelativePath": "api/product/{id}",
+    "Method": "GetProducts",
+    "RelativePath": "api/product",
     "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "color",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "size",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "minPrice",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxPrice",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "minDiscount",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "stock",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "sort",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.ProductController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/product/{id}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -323,8 +488,8 @@
         "IsRequired": true
       },
       {
-        "Name": "productDto",
-        "Type": "Backend.DTOs.CreateProductDto",
+        "Name": "request",
+        "Type": "Backend.DTOs.UpdateProductRequestDTO",
         "IsRequired": true
       }
     ],
@@ -332,24 +497,8 @@
   },
   {
     "ContainingType": "Backend.Controllers.ProductController",
-    "Method": "DeleteProduct",
+    "Method": "GetProductById",
     "RelativePath": "api/product/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Backend.Controllers.ProductController",
-    "Method": "CheckStock",
-    "RelativePath": "api/product/{id}/check-stock",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -358,106 +507,38 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
-      },
-      {
-        "Name": "requiredQuantity",
-        "Type": "System.Int32",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Backend.Controllers.ProductController",
-    "Method": "UpdateStock",
-    "RelativePath": "api/product/{id}/update-stock",
-    "HttpMethod": "PATCH",
+    "ContainingType": "Backend.Controllers.RatingController",
+    "Method": "AddRating",
+    "RelativePath": "api/rating",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "quantityChange",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Backend.Controllers.ProductController",
-    "Method": "GetProductsByCategory",
-    "RelativePath": "api/product/category/{categoryId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "categoryId",
-        "Type": "System.Int32",
+        "Name": "request",
+        "Type": "Backend.DTOs.AddRatingRequestDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Backend.Controllers.ProductController",
-    "Method": "SearchProductsWithFilters",
-    "RelativePath": "api/product/filter",
+    "ContainingType": "Backend.Controllers.RatingController",
+    "Method": "GetReviewsByProductId",
+    "RelativePath": "api/rating/product/{productId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "search",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "minPrice",
-        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "maxPrice",
-        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Backend.Controllers.ProductController",
-    "Method": "SearchProducts",
-    "RelativePath": "api/product/search",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "search",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Backend.Controllers.ProductController",
-    "Method": "GetSortedProducts",
-    "RelativePath": "api/product/sorted",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "sortBy",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -465,19 +546,14 @@
   {
     "ContainingType": "Backend.Controllers.ReviewController",
     "Method": "AddReview",
-    "RelativePath": "api/review/{productId}",
+    "RelativePath": "api/reviews",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "productId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
         "Name": "reviewDto",
-        "Type": "Backend.DTOs.AddReviewDto",
+        "Type": "Backend.DTOs.AddReviewRequestDTO",
         "IsRequired": true
       }
     ],
@@ -485,8 +561,8 @@
   },
   {
     "ContainingType": "Backend.Controllers.ReviewController",
-    "Method": "GetReviews",
-    "RelativePath": "api/review/{productId}",
+    "Method": "GetReviewsByProductId",
+    "RelativePath": "api/reviews/product/{productId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -498,26 +574,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Backend.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Backend.WeatherForecast, Backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]

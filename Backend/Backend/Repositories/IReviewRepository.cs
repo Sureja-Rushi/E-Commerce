@@ -4,7 +4,8 @@ namespace Backend.Repositories
 {
     public interface IReviewRepository
     {
-        Task AddReviewAsync(Review review);
-        Task<IEnumerable<Review>> GetReviewsByProductIdAsync(int productId);
+        Task<bool> AddReviewAsync(Review review);
+
+        Task<List<Review>> GetReviewsByProductIdAsync(int productId);
     }
 }

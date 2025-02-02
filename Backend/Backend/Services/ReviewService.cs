@@ -1,5 +1,4 @@
-﻿using Backend.DTOs;
-using Backend.Models;
+﻿using Backend.Models;
 using Backend.Repositories;
 
 namespace Backend.Services
@@ -7,45 +6,34 @@ namespace Backend.Services
     public class ReviewService : IReviewService
     {
         private readonly IReviewRepository reviewRepository;
+        private readonly IUserRepository userRepository;
         private readonly IProductRepository productRepository;
 
-        public ReviewService(IReviewRepository reviewRepository, IProductRepository productRepository)
+        public ReviewService(IReviewRepository reviewRepository, IUserRepository userRepository, IProductRepository productRepository)
         {
             this.reviewRepository = reviewRepository;
+            this.userRepository = userRepository;
             this.productRepository = productRepository;
         }
 
-        public async Task AddReviewAsync(int productId, AddReviewDto reviewDto, int userId)
+        public async Task<bool> AddReviewAsync(int userId, int productId, string reviewText)
         {
-            // Validate product existence
-            var product = await productRepository.GetProductByIdAsync(productId);
-            if (product == null)
-                throw new Exception("Product not found.");
-
-            // Create a new review
             var review = new Review
             {
-                Comment = reviewDto.Comment,
-                Rating = reviewDto.Rating,
+                UserId = userId,
+                User = await userRepository.GetUserByIdAsync(userId),
                 ProductId = productId,
-                UserId = userId
+                Product = await productRepository.GetProductByIdAsync(productId),
+                ReviewText = reviewText,
+                CreatedAt = DateTime.UtcNow
             };
 
-            // Save the review
-            await reviewRepository.AddReviewAsync(review);
+            return await reviewRepository.AddReviewAsync(review);
         }
 
-        public async Task<IEnumerable<ReviewDto>> GetReviewsByProductIdAsync(int productId)
+        public async Task<List<Review>> GetReviewsByProductIdAsync(int productId)
         {
-            // Get all reviews for a specific product
-            var reviews = await reviewRepository.GetReviewsByProductIdAsync(productId);
-            return reviews.Select(r => new ReviewDto
-            {
-                Comment = r.Comment,
-                Rating = r.Rating,
-                UserName = r.User.FullName
-            }).ToList();
+            return await reviewRepository.GetReviewsByProductIdAsync(productId);
         }
-
     }
 }

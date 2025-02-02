@@ -1,10 +1,11 @@
-﻿using Backend.DTOs;
+﻿using Backend.Models;
 
 namespace Backend.Services
 {
     public interface IReviewService
     {
-        Task AddReviewAsync(int productId, AddReviewDto reviewDto, int userId);
-        Task<IEnumerable<ReviewDto>> GetReviewsByProductIdAsync(int productId);
+        Task<bool> AddReviewAsync(int userId, int productId, string reviewText);
+
+        Task<List<Review>> GetReviewsByProductIdAsync(int productId);
     }
 }

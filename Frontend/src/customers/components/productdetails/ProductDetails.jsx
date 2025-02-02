@@ -1,13 +1,16 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { StarIcon } from "@heroicons/react/20/solid";
 import { Radio, RadioGroup } from "@headlessui/react";
 import { Box, Button, Grid, LinearProgress, Rating } from "@mui/material";
 import ProductReviewCard from "./ProductReviewCard";
 import { men_kurta } from "../../../Data/men_kurta.js"
 import HomeSectionCard from "../homeSectionCard/HomeSectionCard.jsx";
-import { useNavigate } from "react-router";
+import { useNavigate, useParams } from "react-router";
+import { useDispatch, useSelector } from "react-redux";
+import { findProductsById } from "../../../State/Product/Action.js";
+import { addItemToCart } from "../../../State/Cart/Action.js";
 
 const product = {
   name: "Basic Tee 6-Pack",
@@ -65,13 +68,24 @@ function classNames(...classes) {
 }
 
 export default function ProductDetails() {
-  const [selectedColor, setSelectedColor] = useState(product.colors[0]);
-  const [selectedSize, setSelectedSize] = useState(product.sizes[2]);
+  // const [selectedColor, setSelectedColor] = useState(product.colors[0]);
+  const [selectedSize, setSelectedSize] = useState("");
   const navigate = useNavigate();
+  const params = useParams();
+  const dispatch = useDispatch();
+  const {products} = useSelector(store => store);
+
 
   const handleAddToCart = () => {
+    const data = {productId:params.productId, sizeName:selectedSize.name};
+    console.log("data- ", data);
+    dispatch(addItemToCart(data));
     navigate("/cart");
   }
+
+  useEffect(() => {
+    dispatch(findProductsById({productId:params.productId}))
+  },[params.productId])
 
   return (
     <div className="bg-white lg:px-20">
@@ -123,7 +137,7 @@ export default function ProductDetails() {
             <div className="overflow-hidden rounded-lg max-w-[30rem] max-h-[35rem] ml-[3rem]">
               <img
                 alt={product.images[0].alt}
-                src={product.images[0].src}
+                src={products.product?.imageUrl}
                 className="h-full w-full object-cover object-center"
               />
             </div>
@@ -143,10 +157,10 @@ export default function ProductDetails() {
           <div className="lg:col-span-1 mt-auto max-w-2xl px-4 pb-16 sm:px-6 lg:max-w-7xl lg:px-8 lg:pb-24">
             <div className="lg:col-span-2">
               <h1 className="text-lg lg:text-xl text-gray-900 opacity-90">
-                Casual Puff Sleeves Solid Women white Top
+              {products.product?.title}
               </h1>
               <h1 className="text-lg lg:text-xl font-semibold text-gray-900 opacity-70 pt-1">
-                Peter England
+                {products.product?.brand}
               </h1>
             </div>
 
@@ -154,9 +168,9 @@ export default function ProductDetails() {
             <div className="mt-4 lg:row-span-3 lg:mt-0">
               <h2 className="sr-only">Product information</h2>
               <div className="flex space-x-5 items-center text-lg lg:text-xl text-gray-900 mt-6">
-                <p className="font-semibold">Rs.199</p>
-                <p className="opacity-50 line-through">Rs.399</p>
-                <p className="text-green-600 font-semibold">5% Off</p>
+                <p className="font-semibold">Rs.{products.product?.discountedPrice}</p>
+                <p className="opacity-50 line-through">Rs.{products.product?.price}</p>
+                <p className="text-green-600 font-semibold">{products.product?.discountPercent}% Off</p>
               </div>
 
               {/* Reviews */}
