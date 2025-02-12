@@ -87,6 +87,8 @@ export default function ProductDetails() {
     dispatch(findProductsById({productId:params.productId}))
   },[params.productId])
 
+  console.log("product bread crumb: ",product.parentCategory);
+
   return (
     <div className="bg-white lg:px-20">
       <div className="pt-6">

@@ -6,6 +6,9 @@ import {
   GET_ORDER_BY_ID_FAILURE,
   GET_ORDER_BY_ID_REQUEST,
   GET_ORDER_BY_ID_SUCCESS,
+  GET_ORDER_HISTORY_FAILURE,
+  GET_ORDER_HISTORY_REQUEST,
+  GET_ORDER_HISTORY_SUCCESS,
 } from "./ActionType";
 
 export const createOrder = (reqData) => async (dispatch) => {
@@ -54,3 +57,22 @@ export const getOrderById = (orderId) => async (dispatch) => {
         });
     }
 }
+
+export const orderHistory = () => async (dispatch) => {
+  dispatch({ type: GET_ORDER_HISTORY_REQUEST });
+
+  try{
+    const response = await api.get("/api/order/history");
+    console.log("Order History: ", response.data);
+    dispatch({ type: GET_ORDER_HISTORY_SUCCESS, payload: response.data });
+  }catch(error){
+    const errorMessage =
+            error.response?.data?.message || "Failed to fetch order details.";
+
+        // Dispatch failure action with the error message
+        dispatch({
+            type: GET_ORDER_HISTORY_FAILURE,
+            payload: errorMessage,
+        });
+  }
+} 

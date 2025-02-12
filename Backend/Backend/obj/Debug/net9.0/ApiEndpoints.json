@@ -289,15 +289,15 @@
   {
     "ContainingType": "Backend.Controllers.OrderController",
     "Method": "GetUserOrderHistory",
-    "RelativePath": "api/order/history/{userId}",
+    "RelativePath": "api/order/history",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userId",
-        "Type": "System.Int32",
-        "IsRequired": true
+        "Name": "Authorization",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

@@ -93,11 +93,13 @@ const Admin = () => {
     <div>
       <div className="flex h-[100vh]">
         <CssBaseline />
-        <div className="w-[15%] border border-r-gray-300 h-full fixed top-0">{drawer}</div>
+        <div className="shadow-lg shadow-gray-600 w-[15%] h-full fixed top-0">
+          {drawer}
+        </div>
         <div className="w-[85%] ml-[15%]">
           <Routes>
             <Route path="/" element={<Dashboard />}></Route>
-            <Route path="/create" element={<CreateProductForm />} ></Route>
+            <Route path="/create" element={<CreateProductForm />}></Route>
             <Route path="/products" element={<ProductsTable />}></Route>
             <Route path="/orders" element={<OrdersTable />}></Route>
             <Route path="/customers" element={<CustomersTable />}></Route>

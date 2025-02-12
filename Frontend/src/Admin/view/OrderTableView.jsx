@@ -57,7 +57,7 @@ const OrdersTableView = () => {
   return (
     <div className="px-6 py-4">
       <Card className="mt-2">
-        <CardHeader title="All Products" />
+        <CardHeader title="Recent Orders" />
         <TableContainer component={Paper}>
           <Table sx={{ minWidth: 650 }} aria-label="simple table">
             <TableHead>

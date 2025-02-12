@@ -7,8 +7,48 @@
       "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,18 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,20 +82,8 @@
       "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\dtos\\createorderrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\createorderrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -88,10 +104,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\addressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\addressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -120,10 +132,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\helpers\\jwttokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\helpers\\jwttokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\configurations\\jwtconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -188,10 +196,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.CartItems.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -272,10 +276,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|d:\\rushi\\4th year\\8th sem\\e-commerce\\backend\\backend\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB38E85-B7B4-484F-B645-9AC884A64650}|Backend\\Backend.csproj|solutionrelative:backend\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -293,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\PaymentController.cs",
@@ -306,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "Payment.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Payment.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\Payment.cs",
@@ -319,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "dbo.Orders.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.Orders.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.Orders.sql",
@@ -328,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "PaymentService.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\PaymentService.cs",
               "RelativeDocumentMoniker": "Backend\\Services\\PaymentService.cs",
@@ -340,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 5,
               "Title": "PaymentRepository.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\PaymentRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repositories\\PaymentRepository.cs",
@@ -352,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "AddressService.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\AddressService.cs",
               "RelativeDocumentMoniker": "Backend\\Services\\AddressService.cs",
@@ -364,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "Address.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Address.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\Address.cs",
@@ -376,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "JwtTokenHelper.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Helpers\\JwtTokenHelper.cs",
               "RelativeDocumentMoniker": "Backend\\Helpers\\JwtTokenHelper.cs",
@@ -388,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "JwtConfiguration.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Configurations\\JwtConfiguration.cs",
               "RelativeDocumentMoniker": "Backend\\Configurations\\JwtConfiguration.cs",
@@ -400,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "IUserService.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "Backend\\Services\\IUserService.cs",
@@ -412,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repositories\\IUserRepository.cs",
@@ -424,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "dbo.Addresses.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.Addresses.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.Addresses.sql",
@@ -433,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "CreateOrderRequestDTO.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\CreateOrderRequestDTO.cs",
               "RelativeDocumentMoniker": "Backend\\DTOs\\CreateOrderRequestDTO.cs",
@@ -445,20 +445,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\OrderController.cs",
               "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\OrderController.cs",
               "RelativeToolTip": "Backend\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAADEBAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAAANgAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T18:05:51.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "IAddressRepository.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\IAddressRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repositories\\IAddressRepository.cs",
@@ -470,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "AddressRepository.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\AddressRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repositories\\AddressRepository.cs",
@@ -488,20 +488,20 @@
               "RelativeDocumentMoniker": "Backend\\Services\\OrderService.cs",
               "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\OrderService.cs",
               "RelativeToolTip": "Backend\\Services\\OrderService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABMAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABMAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T18:01:12.902Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 6,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\IOrderService.cs",
               "RelativeDocumentMoniker": "Backend\\Services\\IOrderService.cs",
               "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\IOrderService.cs",
               "RelativeToolTip": "Backend\\Services\\IOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T18:00:26.019Z"
             },
@@ -513,13 +513,13 @@
               "RelativeDocumentMoniker": "Backend\\Repositories\\OrderRepository.cs",
               "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\OrderRepository.cs",
               "RelativeToolTip": "Backend\\Repositories\\OrderRepository.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAAAJ4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAGEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T17:53:03.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repositories\\IOrderRepository.cs",
@@ -531,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\OrderItem.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\OrderItem.cs",
@@ -543,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "CartItemDto.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\CartItemDto.cs",
               "RelativeDocumentMoniker": "Backend\\DTOs\\CartItemDto.cs",
@@ -555,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "dbo.CartItems.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.CartItems.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.CartItems.sql",
@@ -564,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "AddCartItemRequestDTO.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\AddCartItemRequestDTO.cs",
               "RelativeDocumentMoniker": "Backend\\DTOs\\AddCartItemRequestDTO.cs",
@@ -576,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "dbo.ProductSizes.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.ProductSizes.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.ProductSizes.sql",
@@ -585,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "dbo.Products.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.Products.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_QGL8KNR_SQLEXPRESS/ECommerce/True/SqlTable/dbo.Products.sql",
@@ -594,19 +594,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\CartController.cs",
               "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\CartController.cs",
               "RelativeToolTip": "Backend\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGMAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-03T14:33:26.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "CartService.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\CartService.cs",
               "RelativeDocumentMoniker": "Backend\\Services\\CartService.cs",
@@ -618,7 +618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "ICartService.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\ICartService.cs",
               "RelativeDocumentMoniker": "Backend\\Services\\ICartService.cs",
@@ -630,7 +630,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "CartRepository.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\CartRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repositories\\CartRepository.cs",
@@ -642,7 +642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "ICartRepository.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\ICartRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repositories\\ICartRepository.cs",
@@ -654,7 +654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "CartItem.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\CartItem.cs",
@@ -666,7 +666,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "Cart.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Cart.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\Cart.cs",
@@ -678,7 +678,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "RatingController.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\RatingController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\RatingController.cs",
@@ -690,7 +690,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "AddRatingRequestDTO.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\AddRatingRequestDTO.cs",
               "RelativeDocumentMoniker": "Backend\\DTOs\\AddRatingRequestDTO.cs",
@@ -702,7 +702,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "RatingService.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\RatingService.cs",
               "RelativeDocumentMoniker": "Backend\\Services\\RatingService.cs",
@@ -714,7 +714,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "IRatingService.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\IRatingService.cs",
               "RelativeDocumentMoniker": "Backend\\Services\\IRatingService.cs",
@@ -726,7 +726,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "RatingRepository.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\RatingRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repositories\\RatingRepository.cs",
@@ -738,7 +738,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "IRatingRepository.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\IRatingRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repositories\\IRatingRepository.cs",
@@ -750,7 +750,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 3,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\Order.cs",
@@ -762,7 +762,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "AddReviewRequestDTO.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\AddReviewRequestDTO.cs",
               "RelativeDocumentMoniker": "Backend\\DTOs\\AddReviewRequestDTO.cs",
@@ -774,19 +774,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 8,
               "Title": "ReviewController.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\ReviewController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\ReviewController.cs",
               "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\ReviewController.cs",
               "RelativeToolTip": "Backend\\Controllers\\ReviewController.cs",
-              "ViewState": "AgIAABIAAABAZmZmZmYSwB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-02T17:35:25.098Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repositories\\UserRepository.cs",
@@ -798,7 +798,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Backend\\Services\\UserService.cs",
@@ -810,7 +810,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "ReviewService.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\ReviewService.cs",
               "RelativeDocumentMoniker": "Backend\\Services\\ReviewService.cs",
@@ -822,7 +822,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "IReviewService.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\IReviewService.cs",
               "RelativeDocumentMoniker": "Backend\\Services\\IReviewService.cs",
@@ -834,7 +834,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "IReviewRepository.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\IReviewRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repositories\\IReviewRepository.cs",
@@ -846,7 +846,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "Review.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Review.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\Review.cs",
@@ -858,7 +858,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "Rating.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Rating.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\Rating.cs",
@@ -870,7 +870,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "AddCartItemDto.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\AddCartItemDto.cs",
               "RelativeDocumentMoniker": "Backend\\DTOs\\AddCartItemDto.cs",
@@ -882,7 +882,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "AddAddressDTO.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\AddAddressDTO.cs",
               "RelativeDocumentMoniker": "Backend\\DTOs\\AddAddressDTO.cs",
@@ -894,7 +894,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\ProductDto.cs",
               "RelativeDocumentMoniker": "Backend\\DTOs\\ProductDto.cs",
@@ -906,7 +906,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "SizeDTO.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\SizeDTO.cs",
               "RelativeDocumentMoniker": "Backend\\DTOs\\SizeDTO.cs",
@@ -918,7 +918,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "UpdateProductRequestDTO.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\UpdateProductRequestDTO.cs",
               "RelativeDocumentMoniker": "Backend\\DTOs\\UpdateProductRequestDTO.cs",
@@ -930,43 +930,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 11,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\UserController.cs",
               "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\UserController.cs",
               "RelativeToolTip": "Backend\\Controllers\\UserController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-31T15:19:16.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 9,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\AuthController.cs",
               "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Backend\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-31T15:18:15.901Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Backend\\AppDbContext.cs",
               "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\AppDbContext.cs",
               "RelativeToolTip": "Backend\\AppDbContext.cs",
-              "ViewState": "AgIAAIwBAAAAAAAAAAAkwJ4BAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADUBAAAAAAAAAAAAAEABAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-31T12:33:17.765Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\ProductController.cs",
@@ -978,7 +978,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "ReviewRepository.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\ReviewRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repositories\\ReviewRepository.cs",
@@ -990,7 +990,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\User.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\User.cs",
@@ -1002,7 +1002,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "AddProductRequestDTO.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\DTOs\\AddProductRequestDTO.cs",
               "RelativeDocumentMoniker": "Backend\\DTOs\\AddProductRequestDTO.cs",
@@ -1014,7 +1014,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "ProductService.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Backend\\Services\\ProductService.cs",
@@ -1026,7 +1026,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "IProductService.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Services\\IProductService.cs",
               "RelativeDocumentMoniker": "Backend\\Services\\IProductService.cs",
@@ -1038,7 +1038,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repositories\\ProductRepository.cs",
@@ -1050,7 +1050,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Repositories\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repositories\\IProductRepository.cs",
@@ -1062,7 +1062,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\Category.cs",
@@ -1074,7 +1074,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "ProductSize.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\ProductSize.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\ProductSize.cs",
@@ -1086,7 +1086,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\Product.cs",
@@ -1098,7 +1098,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\appsettings.json",
               "RelativeDocumentMoniker": "Backend\\appsettings.json",
@@ -1110,15 +1110,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Program.cs",
               "RelativeDocumentMoniker": "Backend\\Program.cs",
               "ToolTip": "D:\\Rushi\\4th Year\\8th sem\\E-Commerce\\Backend\\Backend\\Program.cs",
               "RelativeToolTip": "Backend\\Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T14:37:07.838Z"
+              "WhenOpened": "2024-12-23T14:37:07.838Z",
+              "EditorCaption": ""
             }
           ]
         }

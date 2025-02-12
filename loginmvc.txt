@@ -1,0 +1,507 @@
+// Models/UserModel.cs
+using System.ComponentModel.DataAnnotations;
+public class UserModel
+{
+    public int Id { get; set; }
+    [Required]
+    public string Email { get; set; }
+    [Required]
+    public string PasswordHash { get; set; }
+    public string Role { get; set; } // Added role property
+}
+
+// Data/ApplicationDbContext.cs
+using System.Data.Entity;
+public class ApplicationDbContext : DbContext
+{
+    public DbSet<UserModel> Users { get; set; }
+}
+
+// Repository/IUserRepository.cs
+public interface IUserRepository
+{
+    UserModel GetUserByEmail(string email);
+}
+
+// Repository/UserRepository.cs
+public class UserRepository : IUserRepository
+{
+    private readonly ApplicationDbContext _context;
+    public UserRepository(ApplicationDbContext context)
+    {
+        _context = context;
+    }
+    public UserModel GetUserByEmail(string email)
+    {
+        return _context.Users.SingleOrDefault(u => u.Email == email);
+    }
+}
+
+// Services/IAuthService.cs
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+public interface IAuthService
+{
+    string Authenticate(string email, string password, bool rememberMe);
+}
+
+// Services/AuthService.cs
+using System.Security.Cryptography;
+public class AuthService : IAuthService
+{
+    private readonly IUserRepository _userRepository;
+    private readonly string secretKey = "your_secret_key_here";
+    public AuthService(IUserRepository userRepository)
+    {
+        _userRepository = userRepository;
+    }
+    public string Authenticate(string email, string password, bool rememberMe)
+    {
+        var user = _userRepository.GetUserByEmail(email);
+        if (user == null || !VerifyPassword(password, user.PasswordHash))
+            return null;
+        
+        var tokenHandler = new JwtSecurityTokenHandler();
+        var key = Encoding.ASCII.GetBytes(secretKey);
+        var tokenDescriptor = new SecurityTokenDescriptor
+        {
+            Subject = new ClaimsIdentity(new[] {
+                new Claim(ClaimTypes.Email, email),
+                new Claim(ClaimTypes.Role, user.Role) // Added role to JWT
+            }),
+            Expires = rememberMe ? DateTime.UtcNow.AddDays(7) : DateTime.UtcNow.AddHours(1),
+            SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+        };
+        var token = tokenHandler.CreateToken(tokenDescriptor);
+        return tokenHandler.WriteToken(token);
+    }
+    private bool VerifyPassword(string password, string storedHash)
+    {
+        using (var sha256 = SHA256.Create())
+        {
+            var hash = Convert.ToBase64String(sha256.ComputeHash(Encoding.UTF8.GetBytes(password)));
+            return hash == storedHash;
+        }
+    }
+}
+
+// Controllers/AuthController.cs
+using System.Web.Mvc;
+using System.Web.Script.Serialization;
+public class AuthController : Controller
+{
+    private readonly IAuthService _authService;
+    public AuthController(IAuthService authService)
+    {
+        _authService = authService;
+    }
+    [HttpPost]
+    public JsonResult Login(string email, string password, bool rememberMe)
+    {
+        var token = _authService.Authenticate(email, password, rememberMe);
+        if (token == null)
+            return Json(new { success = false, message = "Invalid credentials." });
+        
+        return Json(new { success = true, token });
+    }
+}
+
+
+
+
+@{
+    Layout = null; // No layout for a standalone login page
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="icon" type="image/x-icon" href="~/images/logos/pizzashop_logo.png">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid text-center vh-100 w-100 blue-background">
+        <div class="back row h-100">
+            <div class="col left text-center d-none d-lg-inline-block">
+                <img class="d-block h-100 img-fluid" src="~/images/dominos_background.jpg" alt="Background">
+            </div>
+            <div class="col m-auto text-lg-start d-flex flex-column align-items-center">
+                <section class="logo d-flex align-items-center justify-content-center mx-auto mx-lg-0 mb-2 header-font">
+                    <img src="~/images/logos/pizzashop_logo.png" class="w-25" alt="Logo">
+                    <h2 class="mb-0 px-3 roboto-black blue-text">PIZZASHOP</h2>
+                </section>
+                <aside class="login mt-5 w-75 mx-auto mx-lg-0 d-flex flex-column align-items-start">
+                    <h3 class="roboto-regular roboto-medium">Welcome,</h3>
+                    <form id="loginForm" class="py-3 w-100 d-flex flex-column align-items-center needs-validation" novalidate>
+                        <div class="mb-3 col col-12 loginInp p-0 form-outline position-relative">
+                            <input type="email" class="form-control form-control-lg placeholder-text custom-border roboto-regular rounded-2"
+                                   id="email" placeholder="Email" required />
+                            <img src="~/images/person.svg" class="form-outline-logo me-3" alt="">
+                            <div class="invalid-feedback roboto-light text-start">Email is Required</div>
+                        </div>
+                        <div class="mb-3 col col-12 loginInp p-0 form-outline position-relative">
+                            <input type="password" class="form-control form-control-lg placeholder-text custom-border roboto-regular rounded-2"
+                                   id="password" placeholder="Password" required />
+                            <i class="bi bi-eye-slash form-outline-logo password-logo password-toggle-icon" id="togglePassword"></i>
+                            <div class="invalid-feedback roboto-light text-start">Password is Required</div>
+                        </div>
+                        <div class="d-flex flex-column flex-sm-row justify-content-between gap-sm-5 gap-lg-0 col col-12 text-center align-items-start mt-2 p-0">
+                            <div class="mb-2 mb-sm-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="rememberMe" />
+                                <label class="form-check-label text-black roboto-regular" for="rememberMe">Remember Me</label>
+                            </div>
+                            <a href="/forgotPassword.html" class="gray-text roboto-regular text-decoration-none mx-auto mx-sm-0">Forgot Password?</a>
+                        </div>
+                        <button type="submit" class="login-btn btn btn-primary text-white p-2 border-0 rounded-1 roboto-medium col-12 mt-2 h5">
+                            <p class="mb-0 lead">Login</p>
+                        </button>
+                        <p id="errorMessage" class="text-danger mt-3"></p>
+                    </form>
+                </aside>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $("#loginForm").submit(function (event) {
+                event.preventDefault(); // Prevent default form submission
+
+                var email = $("#email").val();
+                var password = $("#password").val();
+                var rememberMe = $("#rememberMe").is(":checked");
+
+                // Validate inputs
+                if (!email || !password) {
+                    $("#errorMessage").text("Please enter both email and password.");
+                    return;
+                }
+
+                $.ajax({
+                    url: "/Auth/Login",
+                    type: "POST",
+                    contentType: "application/json",
+                    data: JSON.stringify({ email: email, password: password, rememberMe: rememberMe }),
+                    success: function (response) {
+                        if (response.success) {
+                            if (rememberMe) {
+                                localStorage.setItem("jwtToken", response.token); // Store token for long-term login
+                            } else {
+                                sessionStorage.setItem("jwtToken", response.token); // Store token for session-based login
+                            }
+                            window.location.href = "/dashboard"; // Redirect to dashboard on success
+                        } else {
+                            $("#errorMessage").text(response.message);
+                        }
+                    },
+                    error: function () {
+                        $("#errorMessage").text("An error occurred while logging in.");
+                    }
+                });
+            });
+
+            // Toggle password visibility
+            $("#togglePassword").click(function () {
+                var passwordInput = $("#password");
+                var type = passwordInput.attr("type") === "password" ? "text" : "password";
+                passwordInput.attr("type", type);
+                $(this).toggleClass("bi-eye bi-eye-slash");
+            });
+        });
+    </script>
+
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+/PizzaShopMVC
+│── 📁 PizzaShopMVC                # Root project folder
+│   │── 📁 Controllers             # MVC Controllers
+│   │   ├── AuthController.cs      # Handles authentication (login, JWT, etc.)
+│   │   ├── HomeController.cs      # Default controller (e.g., Dashboard)
+│   │── 📁 Models                  # Models (Data Representation)
+│   │   ├── UserModel.cs           # Represents user entity
+│   │── 📁 Views                   # Views (Frontend UI)
+│   │   ├── 📁 Auth                # Authentication Views
+│   │   │   ├── Login.cshtml       # Razor Login View
+│   │   ├── 📁 Shared              # Shared Layouts
+│   │   │   ├── _Layout.cshtml     # Master layout file
+│   │── 📁 Scripts                 # JavaScript Files
+│   │   ├── custom.js              # Custom JS (Login functionality)
+│   │── 📁 wwwroot                 # Static assets (CSS, Images, JS)
+│   │   ├── 📁 css                 # CSS Files
+│   │   │   ├── style.css          # Custom CSS for Login Page
+│   │   ├── 📁 images              # Images folder (logos, background)
+│   │   │   ├── logos
+│   │   │   │   ├── pizzashop_logo.png
+│   │   │   ├── dominos_background.jpg
+│   │── 📁 Services                 # Business Logic
+│   │   ├── AuthService.cs         # Handles authentication logic (JWT, hashing, etc.)
+│   │── 📁 Repositories             # Data Access Layer
+│   │   ├── UserRepository.cs      # User database interactions
+│── PizzaShopMVC.sln                # Solution file
+
+
+==================================================================
+
+
+@model PizzaShopMVC.Models.LoginViewModel
+@{
+    Layout = null; // No layout for standalone login page
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- Bootstrap & Custom Styles -->
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="icon" type="image/x-icon" href="~/images/logos/pizzashop_logo.png">
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid text-center vh-100 w-100 blue-background">
+        <div class="back row h-100">
+            <!-- Left Image -->
+            <div class="col left text-center d-none d-lg-inline-block">
+                <img class="d-block h-100 img-fluid" src="~/images/dominos_background.jpg" alt="Background">
+            </div>
+
+            <!-- Login Form -->
+            <div class="col m-auto text-lg-start d-flex flex-column align-items-center">
+                <section class="logo d-flex align-items-center justify-content-center mx-auto mx-lg-0 mb-2 header-font">
+                    <img src="~/images/logos/pizzashop_logo.png" class="w-25" alt="Logo">
+                    <h2 class="mb-0 px-3 roboto-black blue-text">PIZZASHOP</h2>
+                </section>
+
+                <aside class="login mt-5 w-75 mx-auto mx-lg-0 d-flex flex-column align-items-start">
+                    <h3 class="roboto-regular roboto-medium">Welcome,</h3>
+
+                    @using (Html.BeginForm("Login", "Auth", FormMethod.Post, new { id = "loginForm" }))
+                    {
+                        <div class="py-3 w-100 d-flex flex-column align-items-center needs-validation">
+                            <!-- Email Input -->
+                            <div class="mb-3 col col-12 loginInp p-0 form-outline position-relative">
+                                @Html.TextBoxFor(m => m.Email, new { @class = "form-control form-control-lg placeholder-text custom-border roboto-regular rounded-2", placeholder = "Email", required = "required" })
+                                <span class="text-danger">@Html.ValidationMessageFor(m => m.Email)</span>
+                            </div>
+
+                            <!-- Password Input -->
+                            <div class="mb-3 col col-12 loginInp p-0 form-outline position-relative">
+                                @Html.PasswordFor(m => m.Password, new { @class = "form-control form-control-lg placeholder-text custom-border roboto-regular rounded-2", placeholder = "Password", required = "required" })
+                                <span class="text-danger">@Html.ValidationMessageFor(m => m.Password)</span>
+                            </div>
+
+                            <!-- Remember Me & Forgot Password -->
+                            <div class="d-flex flex-column flex-sm-row justify-content-between col col-12 text-center align-items-start mt-2 p-0">
+                                <div class="mb-2 mb-sm-3 form-check">
+                                    @Html.CheckBoxFor(m => m.RememberMe, new { @class = "form-check-input" })
+                                    <label class="form-check-label text-black roboto-regular" for="RememberMe">Remember Me</label>
+                                </div>
+                                <a href="@Url.Action("ForgotPassword", "Auth")" class="gray-text roboto-regular text-decoration-none">Forgot Password?</a>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <button type="submit" class="login-btn btn btn-primary text-white p-2 border-0 rounded-1 roboto-medium col-12 mt-2 h5">
+                                <p class="mb-0 lead">Login</p>
+                            </button>
+
+                            <!-- Error Message -->
+                            @if (!ViewData.ModelState.IsValid)
+                            {
+                                <p class="text-danger mt-3">@Html.ValidationSummary()</p>
+                            }
+                        </div>
+                    }
+                </aside>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Scripts/custom.js"></script>
+</body>
+</html>
+
+
+
+using System.ComponentModel.DataAnnotations;
+
+namespace PizzaShopMVC.Models
+{
+    public class LoginViewModel
+    {
+        [Required(ErrorMessage = "Email is required")]
+        [EmailAddress(ErrorMessage = "Invalid email format")]
+        public string Email { get; set; }
+
+        [Required(ErrorMessage = "Password is required")]
+        [MinLength(6, ErrorMessage = "Password must be at least 6 characters")]
+        public string Password { get; set; }
+
+        public bool RememberMe { get; set; }
+    }
+}
+
+
+
+
+using System;
+using System.Web.Mvc;
+using PizzaShopMVC.Models;
+using PizzaShopMVC.Services;
+
+namespace PizzaShopMVC.Controllers
+{
+    public class AuthController : Controller
+    {
+        private readonly AuthService _authService = new AuthService();
+
+        [HttpGet]
+        public ActionResult Login()
+        {
+            return View(new LoginViewModel());
+        }
+
+        [HttpPost]
+        public ActionResult Login(LoginViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            var user = _authService.AuthenticateUser(model.Email, model.Password);
+
+            if (user != null)
+            {
+                var token = _authService.GenerateJwtToken(user);
+
+                if (model.RememberMe)
+                {
+                    Response.Cookies["AuthToken"].Value = token;
+                    Response.Cookies["AuthToken"].Expires = DateTime.Now.AddDays(7); // 7 days expiry
+                }
+                else
+                {
+                    Session["AuthToken"] = token;
+                }
+
+                return RedirectToAction("Dashboard", "Home");
+            }
+            else
+            {
+                ModelState.AddModelError("", "Invalid email or password.");
+                return View(model);
+            }
+        }
+    }
+}
+
+
+
+
+
+
+custom.js
+$(document).ready(function () {
+    $("#loginForm").submit(function (event) {
+        event.preventDefault();
+        var email = $("#Email").val();
+        var password = $("#Password").val();
+        var rememberMe = $("#RememberMe").is(":checked");
+
+        if (!email || !password) {
+            alert("Both email and password are required.");
+            return;
+        }
+
+        $.ajax({
+            url: "/Auth/Login",
+            type: "POST",
+            data: { Email: email, Password: password, RememberMe: rememberMe },
+            success: function (response) {
+                if (response.success) {
+                    if (rememberMe) {
+                        localStorage.setItem("jwtToken", response.token);
+                    } else {
+                        sessionStorage.setItem("jwtToken", response.token);
+                    }
+                    window.location.href = "/dashboard";
+                } else {
+                    alert(response.message);
+                }
+            },
+            error: function () {
+                alert("Login failed. Please check your credentials.");
+            }
+        });
+    });
+});
+
+
+
+
+$(document).ready(function () {
+    $("#loginForm").submit(function (event) {
+        event.preventDefault();
+
+        var formData = {
+            email: $("#Email").val(),
+            password: $("#Password").val(),
+            rememberMe: $("#RememberMe").is(":checked"),
+            userRole: "Customer", // Example: Additional field
+            deviceInfo: navigator.userAgent // Capturing device info
+        };
+
+        $.ajax({
+            url: "/Auth/Login",
+            type: "POST",
+            contentType: "application/json",
+            data: JSON.stringify(formData), // Convert to JSON string
+            dataType: "json",
+            success: function (response) {
+                if (response.success) {
+                    if (formData.rememberMe) {
+                        localStorage.setItem("jwtToken", response.token);
+                    } else {
+                        sessionStorage.setItem("jwtToken", response.token);
+                    }
+                    window.location.href = "/dashboard";
+                } else {
+                    alert(response.message);
+                }
+            },
+            error: function () {
+                alert("Login failed. Please check your credentials.");
+            }
+        });
+    });
+});
+
+
+
+
+
+
+

@@ -96,7 +96,7 @@ namespace Backend.Repositories
             .Include(o => o.OrderItems)
                 .ThenInclude(oi => oi.Product)
             .Include(o => o.ShippingAddress)
-            .Where(o => o.UserId == userId && o.OrderStatus == "PLACED")
+            .Where(o => o.UserId == userId) // && o.OrderStatus == "PLACED"
             .OrderByDescending(o => o.OrderDate)
             .ToListAsync();
         }

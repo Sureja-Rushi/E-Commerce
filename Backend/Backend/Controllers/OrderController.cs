@@ -208,11 +208,21 @@ namespace Backend.Controllers
         }
 
         [HttpGet]
-        [Route("history/{userId}")]
-        public async Task<IActionResult> GetUserOrderHistory(int userId)
+        [Route("history")]
+        //[FromHeader(Name = "Authorization")] string authorizationHeader
+        public async Task<IActionResult> GetUserOrderHistory([FromHeader(Name = "Authorization")] string authorizationHeader)
         {
             try
             {
+                if (string.IsNullOrEmpty(authorizationHeader) || !authorizationHeader.StartsWith("Bearer "))
+                {
+                    return Unauthorized(new { message = "Authorization token is not provided or invalid." });
+                }
+
+                // Extract the JWT token from the Authorization header
+                var token = authorizationHeader.Substring("Bearer ".Length).Trim();
+                var userId = JwtTokenHelper.GetUserFromToken(token).Id;
+
                 var orders = await orderService.GetUserOrderHistoryAsync(userId);
 
                 return Ok(orders.Select(order => new
@@ -229,7 +239,9 @@ namespace Backend.Controllers
                         order.ShippingAddress.Street,
                         order.ShippingAddress.City,
                         order.ShippingAddress.State,
-                        order.ShippingAddress.ZipCode
+                        order.ShippingAddress.ZipCode,
+                        order.ShippingAddress.FirstName,
+                        order.ShippingAddress.LastName
                     },
                     OrderItems = order.OrderItems.Select(oi => new
                     {
