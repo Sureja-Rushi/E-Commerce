@@ -1,0 +1,347 @@
+-- Customers Table
+CREATE TABLE Customers (
+    CustomerID SERIAL PRIMARY KEY,
+    CustomerName VARCHAR(100),
+    Email VARCHAR(100) UNIQUE,
+    Country VARCHAR(50),
+    SignupDate DATE
+);
+
+-- Products Table
+CREATE TABLE Products (
+    ProductID SERIAL PRIMARY KEY,
+    ProductName VARCHAR(100),
+    Category VARCHAR(50),
+    Price DECIMAL(10, 2),
+    StockQuantity INT
+);
+
+-- Orders Table
+CREATE TABLE Orders (
+    OrderID SERIAL PRIMARY KEY,
+    CustomerID INT REFERENCES Customers(CustomerID),
+    OrderDate DATE,
+    TotalAmount DECIMAL(10, 2),
+    Status VARCHAR(20)
+);
+
+-- OrderDetails Table
+CREATE TABLE OrderDetails (
+    OrderDetailID SERIAL PRIMARY KEY,
+    OrderID INT REFERENCES Orders(OrderID),
+    ProductID INT REFERENCES Products(ProductID),
+    Quantity INT,
+    Price DECIMAL(10, 2)
+);
+
+-- Payments Table
+CREATE TABLE Payments (
+    PaymentID SERIAL PRIMARY KEY,
+    OrderID INT REFERENCES Orders(OrderID),
+    PaymentDate DATE,
+    PaymentMethod VARCHAR(50),
+    Amount DECIMAL(10, 2)
+);
+
+
+
+-- Insert into Customers
+INSERT INTO Customers (CustomerName, Email, Country, SignupDate) VALUES
+('Alice Johnson', 'alice@example.com', 'USA', '2024-01-15'),
+('Bob Smith', 'bob@example.com', 'Canada', '2024-02-20'),
+('Charlie Brown', 'charlie@example.com', 'UK', '2024-03-05'),
+('Diana Prince', 'diana@example.com', 'USA', '2024-04-10'),
+('Evan Williams', 'evan@example.com', 'Australia', '2024-05-22');
+
+-- Insert into Products
+INSERT INTO Products (ProductName, Category, Price, StockQuantity) VALUES
+('Smartphone', 'Electronics', 699.99, 50),
+('Laptop', 'Electronics', 999.99, 30),
+('T-Shirt', 'Clothing', 19.99, 100),
+('Jeans', 'Clothing', 49.99, 75),
+('Headphones', 'Electronics', 199.99, 40);
+
+-- Insert into Orders
+INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, Status) VALUES
+(1, '2024-06-15', 719.98, 'Delivered'),
+(2, '2024-06-20', 1049.98, 'Shipped'),
+(3, '2024-07-05', 69.98, 'Delivered'),
+(4, '2024-07-10', 199.99, 'Cancelled'),
+(5, '2024-08-22', 49.99, 'Pending');
+
+-- Insert into OrderDetails
+INSERT INTO OrderDetails (OrderID, ProductID, Quantity, Price) VALUES
+(1, 1, 1, 699.99),
+(1, 3, 1, 19.99),
+(2, 2, 1, 999.99),
+(2, 5, 1, 199.99),
+(3, 3, 2, 19.99),
+(3, 4, 1, 49.99),
+(4, 5, 1, 199.99),
+(5, 4, 1, 49.99);
+
+-- Insert into Payments
+INSERT INTO Payments (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(1, '2024-06-16', 'Credit Card', 719.98),
+(2, '2024-06-21', 'PayPal', 1049.98),
+(3, '2024-07-06', 'Credit Card', 69.98);
+
+
+
+1.
+SELECT Category, SUM(od.Quantity * od.Price) AS TotalSales
+FROM OrderDetails od
+JOIN Products p ON od.ProductID = p.ProductID
+GROUP BY Category;
+
+
+2.
+SELECT c.CustomerName, SUM(o.TotalAmount) AS TotalSpent
+FROM Orders o
+JOIN Customers c ON o.CustomerID = c.CustomerID
+WHERE o.Status = 'Delivered'
+GROUP BY c.CustomerName
+ORDER BY TotalSpent DESC
+LIMIT 5;
+
+
+
+3.
+SELECT TO_CHAR(OrderDate, 'YYYY-MM') AS Month, 
+       SUM(TotalAmount) AS TotalSales,
+       LAG(SUM(TotalAmount)) OVER (ORDER BY TO_CHAR(OrderDate, 'YYYY-MM')) AS PreviousMonthSales,
+       ROUND((SUM(TotalAmount) - LAG(SUM(TotalAmount)) OVER (ORDER BY TO_CHAR(OrderDate, 'YYYY-MM'))) / 
+             LAG(SUM(TotalAmount)) OVER (ORDER BY TO_CHAR(OrderDate, 'YYYY-MM')) * 100, 2) AS GrowthRate
+FROM Orders
+WHERE Status = 'Delivered'
+GROUP BY Month;
+
+
+4.
+SELECT c.CustomerName, 
+       AVG(o.TotalAmount) AS AverageOrderValue
+FROM Orders o
+JOIN Customers c ON o.CustomerID = c.CustomerID
+GROUP BY c.CustomerName;
+
+
+5.
+SELECT ProductName, StockQuantity
+FROM Products
+WHERE StockQuantity < 20;
+
+
+6.
+SELECT p.ProductName, SUM(od.Quantity) AS TotalOrdered
+FROM OrderDetails od
+JOIN Products p ON od.ProductID = p.ProductID
+GROUP BY p.ProductName
+ORDER BY TotalOrdered DESC
+LIMIT 10;
+
+
+7.
+SELECT ROUND(COUNT(DISTINCT CASE WHEN o2.OrderDate <= o1.OrderDate + INTERVAL '90 days' 
+                                  THEN o1.CustomerID END) * 100.0 / COUNT(DISTINCT o1.CustomerID), 2) AS RetentionRate
+FROM Orders o1
+LEFT JOIN Orders o2 ON o1.CustomerID = o2.CustomerID AND o2.OrderDate > o1.OrderDate;
+
+
+
+8.
+SELECT PaymentMethod, 
+       SUM(Amount) AS TotalRevenue,
+       ROUND(SUM(Amount) * 100.0 / (SELECT SUM(Amount) FROM Payments), 2) AS RevenuePercentage
+FROM Payments
+GROUP BY PaymentMethod;
+
+
+
+9.
+SELECT ROUND(AVG(EXTRACT(EPOCH FROM (o2.OrderDate - o1.OrderDate)) / 86400), 2) AS AvgProcessingTime
+FROM Orders o1
+JOIN Orders o2 ON o1.OrderID = o2.OrderID
+WHERE o1.Status = 'Pending' AND o2.Status = 'Delivered';
+================
+SELECT ROUND(AVG(DATE_PART('day', Delivered.OrderDate - Pending.OrderDate)), 2) AS AvgProcessingTime
+FROM Orders Pending
+JOIN Orders Delivered ON Pending.OrderID = Delivered.OrderID
+WHERE Pending.Status = 'Pending' AND Delivered.Status = 'Delivered';
+
+
+10.
+SELECT ROUND(COUNT(DISTINCT CustomerID) * 100.0 / (SELECT COUNT(*) FROM Customers), 2) AS RepeatCustomerRate
+FROM Orders
+GROUP BY CustomerID
+HAVING COUNT(*) > 1;
+
+
+
+
+
+
+
+
+
+
+
+==============================================
+
+
+
+public class UserViewModel
+{
+    public int UserId { get; set; }
+    public string Username { get; set; }
+    public string Firstname { get; set; }
+    public string Lastname { get; set; }
+    public string Email { get; set; }
+    public string Role { get; set; }
+    public string Contactnumber { get; set; }
+    public string Country { get; set; }
+    public string State { get; set; }
+    public string City { get; set; }
+    public string Address { get; set; }
+    public string Zipcode { get; set; }
+
+    // Add this for image upload
+    public string Imageurl { get; set; }
+    public IFormFile ProfileImage { get; set; }
+}
+
+
+
+
+<form class="p-3" asp-controller="Auth" asp-action="UserProfile" method="post" enctype="multipart/form-data" novalidate>
+    <input type="file" id="imageInput" asp-for="ProfileImage" accept="image/*" style="display: none;">
+    <input type="hidden" asp-for="Imageurl" />
+    <button id="updateBtn" type="submit" class="pizza-bg p-2 px-3 border-0 rounded-1 text-white fw-semibold">
+        Update
+    </button>
+</form>
+
+@section Scripts {
+    <script>
+        $("#changeImageButton").bind("click", function () {
+            $("#imageInput").click();
+        });
+
+        $("#imageInput").bind("change", function (event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    $("#displayImage").attr("src", URL.createObjectURL(file));
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+}
+
+
+
+
+
+
+[HttpPost]
+public IActionResult UserProfile(UserViewModel model)
+{
+    if (ModelState.IsValid)
+    {
+        if (model.ProfileImage != null)
+        {
+            // Get file name and create a unique name
+            var fileName = Path.GetFileNameWithoutExtension(model.ProfileImage.FileName);
+            var extension = Path.GetExtension(model.ProfileImage.FileName);
+            var uniqueFileName = $"{fileName}_{Guid.NewGuid()}{extension}";
+
+            // Define the path to store the image in wwwroot
+            var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
+            var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+            // Save the file
+            using (var fileStream = new FileStream(filePath, FileMode.Create))
+            {
+                model.ProfileImage.CopyTo(fileStream);
+            }
+
+            // Save the relative path to the model property
+            model.Imageurl = $"images/{uniqueFileName}";
+
+            // Store in the database (example code, replace with your repository call)
+            // _userService.UpdateProfileImage(model.UserId, model.Imageurl);
+        }
+
+        // Redirect or return view
+        return RedirectToAction("UserProfile");
+    }
+
+    return View(model);
+}
+
+
+
+
+
+<img id="displayImage" 
+     src="@(string.IsNullOrEmpty(Model.Imageurl) ? Url.Content("~/images/Default_pfp.svg.png") : Url.Content("~/" + Model.Imageurl))" 
+     class="w-100 h-100 object-fit-cover" 
+     alt="Profile Image" />
+
+
+
+
+
+
+[HttpPost]
+public IActionResult UserProfile(UserViewModel model)
+{
+    if (ModelState.IsValid)
+    {
+        // Check if a new image is uploaded
+        if (model.ProfileImage != null)
+        {
+            // Get file name and create a unique name
+            var fileName = Path.GetFileNameWithoutExtension(model.ProfileImage.FileName);
+            var extension = Path.GetExtension(model.ProfileImage.FileName);
+            var uniqueFileName = $"{fileName}_{Guid.NewGuid()}{extension}";
+
+            // Define the path to store the image in wwwroot
+            var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
+            var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+            // Save the file
+            using (var fileStream = new FileStream(filePath, FileMode.Create))
+            {
+                model.ProfileImage.CopyTo(fileStream);
+            }
+
+            // Save the relative path to the model property
+            model.Imageurl = $"images/{uniqueFileName}";
+        }
+        else
+        {
+            // If no new image is uploaded, keep the existing one
+            model.Imageurl = model.Imageurl ?? "images/Default_pfp.svg.png";
+        }
+
+        // Save the data to the database
+        // _userService.UpdateUserProfile(model);
+
+        // Redirect to the profile view
+        return RedirectToAction("UserProfile");
+    }
+
+    return View(model);
+}
+
+
+
+
+
+
+
+
+
+
